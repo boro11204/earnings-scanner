@@ -53,7 +53,7 @@ summary:focus-visible,a:focus-visible{outline:3px solid #93c5fd;outline-offset:2
 .tick-list li{padding:7px 0;border-top:1px solid var(--line)}
 .tick-list b{display:inline-block;min-width:58px}
 .chart{width:100%;height:auto;display:block;margin:4px 0 0}
-.chart{max-width:640px}
+.chart{max-width:560px}
 .chart text{font-size:13px;fill:#64748b}
 .empty{background:var(--bg);border-radius:10px;padding:14px;color:var(--ink2);margin:0}
 .rules{padding-left:22px;margin:0 0 12px}

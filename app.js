@@ -213,7 +213,7 @@
     var pts = closed.slice().sort(function (a, b) { return (a.closeDay + a.logged).localeCompare(b.closeDay + b.logged); });
     var cum = 0, ys = [0], labels = ['Start'];
     pts.forEach(function (t) { cum += t.net; ys.push(Math.round(cum * 100) / 100); labels.push(t.sym); });
-    var W = 420, H = 210, L = 58, R = 12, T = 14, B = 30;
+    var W = 420, H = 210, L = 66, R = 28, T = 14, B = 30;
     var lo = Math.min.apply(null, ys.concat(0)), hi = Math.max.apply(null, ys.concat(0));
     var min = lo, max = hi;
     if (max === min) { max += 1; min -= 1; }
@@ -226,12 +226,12 @@
     var svg = '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Running total of closed paper-trade P&L after commission, ending at ' + esc(money(last, true)) + '">';
     grid.forEach(function (g) {
       svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(g).toFixed(1) + '" y2="' + Y(g).toFixed(1) + '" stroke="' + (g === 0 ? '#94a3b8' : '#e2e8f0') + '" stroke-dasharray="' + (g === 0 ? '0' : '4 4') + '"/>' +
-        '<text x="' + (L - 6) + '" y="' + (Y(g) + 4).toFixed(1) + '" text-anchor="end">' + esc(money(Math.round(g))) + '</text>';
+        '<text x="' + (L - 12) + '" y="' + (Y(g) + 4).toFixed(1) + '" text-anchor="end">' + esc(money(Math.round(g))) + '</text>';
     });
     svg += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>';
     ys.forEach(function (y, i) {
       svg += '<circle cx="' + X(i).toFixed(1) + '" cy="' + Y(y).toFixed(1) + '" r="4.5" fill="#fff" stroke="' + color + '" stroke-width="2.5"/>';
-      svg += '<text x="' + X(i).toFixed(1) + '" y="' + (H - 12) + '" text-anchor="middle">' + esc(labels[i]) + '</text>';
+      svg += '<text x="' + X(i).toFixed(1) + '" y="' + (H - 8) + '" text-anchor="' + (i === 0 && ys.length > 1 ? 'start' : i === ys.length - 1 && ys.length > 1 ? 'end' : 'middle') + '"' + (i === ys.length - 1 && ys.length > 1 ? ' dx="12"' : i === 0 ? ' dx="-8"' : '') + '>' + esc(labels[i]) + '</text>';
     });
     return svg + '</svg>';
   }
