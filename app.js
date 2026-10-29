@@ -1,1 +1,380 @@
-LyogRWFybmluZ3MgSVYtQ3J1c2ggU2Nhbm5lciBkYXNoYm9hcmQuCiAgIFJlYWRzIHRoZSBzY2FubmVyJ3MgR29vZ2xlIFNoZWV0IGxpdmUgKHZpZXctb25seSBsaW5rLCBwdWJsaWMgQ1NWIGV4cG9ydCkuCiAgIE5vIGtleXMsIG5vIHRyYWNraW5nLiBQYXBlciB0cmFkaW5nIHJlc3VsdHMuIEFuYWx5c2lzIG9ubHksIG5vdCBhZHZpY2UuICovCihmdW5jdGlvbiAoKSB7CiAgJ3VzZSBzdHJpY3QnOwoKICB2YXIgU0hFRVRfSUQgPSAnMXZSMkw3UDNxTmZGUGtMU3QyNWV1SFZXMlJORS1VMUtPQVBoM3hUQTRQYjgnOwogIHZhciBUQUJTID0geyBzY2FuOiB7IG5hbWU6ICdTaGVldDEnLCBnaWQ6ICcwJyB9LCB0cmFja2VkOiB7IG5hbWU6ICdUcmFja2VkJywgZ2lkOiAnMTIxMDM3NTQnIH0gfTsKICB2YXIgVFogPSAnQW1lcmljYS9OZXdfWW9yayc7CiAgdmFyIENPTU1JU1NJT04gPSAwLjUwOyAgICAgIC8vICQgcGVyIGNvbnRyYWN0LCBwZXIgbGVnLCBwZXIgc2lkZSAoc3RvY2svRVRGIG9wdGlvbnMpCiAgdmFyIENPTU1JU1NJT05fU1BYID0gMS4wNzsgIC8vIFNQWCAvIFNQWFcKICB2YXIgUkVGUkVTSF9NUyA9IDEwICogNjAgKiAxMDAwOwoKICAvLyAtLS0tLS0tLS0tIGhlbHBlcnMgLS0tLS0tLS0tLQogIGZ1bmN0aW9uICQoaWQpIHsgcmV0dXJuIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGlkKTsgfQogIGZ1bmN0aW9uIGVzYyhzKSB7CiAgICByZXR1cm4gU3RyaW5nKHMgPT0gbnVsbCA/ICcnIDogcykucmVwbGFjZSgvWyY8PiInXS9nLCBmdW5jdGlvbiAoYykgewogICAgICByZXR1cm4geyAnJic6ICcmYW1wOycsICc8JzogJyZsdDsnLCAnPic6ICcmZ3Q7JywgJyInOiAnJnF1b3Q7JywgIiciOiAnJiMzOTsnIH1bY107CiAgICB9KTsKICB9CiAgZnVuY3Rpb24gbnVtKHYpIHsKICAgIGlmICh2ID09IG51bGwpIHJldHVybiBudWxsOwogICAgdmFyIHMgPSBTdHJpbmcodikucmVwbGFjZSgvWyQsXHNdL2csICcnKS5yZXBsYWNlKC94JC9pLCAnJyk7CiAgICBpZiAocyA9PT0gJycgfHwgcyA9PT0gJy0nKSByZXR1cm4gbnVsbDsKICAgIHZhciBuID0gTnVtYmVyKHMucmVwbGFjZSgvJSQvLCAnJykpOwogICAgcmV0dXJuIGlzRmluaXRlKG4pID8gbiA6IG51bGw7CiAgfQogIGZ1bmN0aW9uIG1vbmV5KG4sIHNpZ25lZCkgewogICAgaWYgKG4gPT0gbnVsbCB8fCAhaXNGaW5pdGUobikpIHJldHVybiAn4oCTJzsKICAgIHZhciBhID0gTWF0aC5hYnMobik7CiAgICB2YXIgcyA9IGEudG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJywgeyBtaW5pbXVtRnJhY3Rpb25EaWdpdHM6IGEgJSAxID8gMiA6IDAsIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMiB9KTsKICAgIHZhciBzaWduID0gbiA8IDAgPyAn4oiSJyA6IChzaWduZWQgJiYgbiA+IDAgPyAnKycgOiAnJyk7CiAgICByZXR1cm4gc2lnbiArICckJyArIHM7CiAgfQogIGZ1bmN0aW9uIGNscyhuKSB7IHJldHVybiBuID4gMCA/ICdwb3MnIDogbiA8IDAgPyAnbmVnJyA6ICcnOyB9CiAgZnVuY3Rpb24gdih4KSB7IHJldHVybiB4ID09IG51bGwgfHwgU3RyaW5nKHgpLnRyaW0oKSA9PT0gJycgPyAn4oCTJyA6IFN0cmluZyh4KS50cmltKCk7IH0KCiAgLy8gIjIwMjYtMTAtMjkgMTU6MDMiIGluIHRoZSBzaGVldCBpcyBVVEMgKHRoZSBzY2FuIHJ1bnMgYXQgMTEgQU0gRVQgPSAxNTowMCBVVEMpLgogIGZ1bmN0aW9uIHV0Y1N0YW1wKHMpIHsKICAgIHZhciBtID0gL14oXGR7NH0pLShcZHsyfSktKFxkezJ9KVsgVF0oXGR7MSwyfSk6KFxkezJ9KS8uZXhlYyhTdHJpbmcocyB8fCAnJykudHJpbSgpKTsKICAgIGlmICghbSkgcmV0dXJuIG51bGw7CiAgICByZXR1cm4gbmV3IERhdGUoRGF0ZS5VVEMoK21bMV0sICttWzJdIC0gMSwgK21bM10sICttWzRdLCArbVs1XSkpOwogIH0KICBmdW5jdGlvbiBldFBhcnRzKGQpIHsKICAgIHZhciBmID0gbmV3IEludGwuRGF0ZVRpbWVGb3JtYXQoJ2VuLVVTJywgeyB0aW1lWm9uZTogVFosIHllYXI6ICdudW1lcmljJywgbW9udGg6ICcyLWRpZ2l0JywgZGF5OiAnMi1kaWdpdCcgfSkuZm9ybWF0VG9QYXJ0cyhkKTsKICAgIHZhciBvID0ge307IGYuZm9yRWFjaChmdW5jdGlvbiAocCkgeyBvW3AudHlwZV0gPSBwLnZhbHVlOyB9KTsKICAgIHJldHVybiBvLnllYXIgKyAnLScgKyBvLm1vbnRoICsgJy0nICsgby5kYXk7CiAgfQogIGZ1bmN0aW9uIGZtdEVUKGQsIHdpdGhEYXkpIHsKICAgIHJldHVybiBkLnRvTG9jYWxlU3RyaW5nKCdlbi1VUycsIHdpdGhEYXkgPT09IGZhbHNlID8KICAgICAgeyB0aW1lWm9uZTogVFosIGhvdXI6ICdudW1lcmljJywgbWludXRlOiAnMi1kaWdpdCcgfSA6CiAgICAgIHsgdGltZVpvbmU6IFRaLCB3ZWVrZGF5OiAnc2hvcnQnLCBtb250aDogJ3Nob3J0JywgZGF5OiAnbnVtZXJpYycsIGhvdXI6ICdudW1lcmljJywgbWludXRlOiAnMi1kaWdpdCcgfSkgKyAnIEVUJzsKICB9CiAgLy8gUGxhaW4gZGF0ZSAiMjAyNi0xMC0yOCIgLT4gIldlZCwgT2N0IDI4IgogIGZ1bmN0aW9uIGZtdERhdGUocykgewogICAgdmFyIG0gPSAvXihcZHs0fSktKFxkezJ9KS0oXGR7Mn0pLy5leGVjKFN0cmluZyhzIHx8ICcnKS50cmltKCkpOwogICAgaWYgKCFtKSByZXR1cm4gdihzKTsKICAgIHZhciBkID0gbmV3IERhdGUoRGF0ZS5VVEMoK21bMV0sICttWzJdIC0gMSwgK21bM10sIDEyKSk7CiAgICByZXR1cm4gZC50b0xvY2FsZURhdGVTdHJpbmcoJ2VuLVVTJywgeyB0aW1lWm9uZTogJ1VUQycsIHdlZWtkYXk6ICdzaG9ydCcsIG1vbnRoOiAnc2hvcnQnLCBkYXk6ICdudW1lcmljJyB9KTsKICB9CiAgZnVuY3Rpb24gdG9kYXlFVCgpIHsgcmV0dXJuIGV0UGFydHMobmV3IERhdGUoKSk7IH0KCiAgLy8gLS0tLS0tLS0tLSBDU1YgLS0tLS0tLS0tLQogIGZ1bmN0aW9uIHBhcnNlQ1NWKHRleHQpIHsKICAgIHZhciByb3dzID0gW10sIHJvdyA9IFtdLCBmID0gJycsIHEgPSBmYWxzZSwgaSA9IDAsIGM7CiAgICB0ZXh0ID0gU3RyaW5nKHRleHQpLnJlcGxhY2UoL15cdUZFRkYvLCAnJyk7CiAgICBmb3IgKDsgaSA8IHRleHQubGVuZ3RoOyBpKyspIHsKICAgICAgYyA9IHRleHRbaV07CiAgICAgIGlmIChxKSB7CiAgICAgICAgaWYgKGMgPT09ICciJykgeyBpZiAodGV4dFtpICsgMV0gPT09ICciJykgeyBmICs9ICciJzsgaSsrOyB9IGVsc2UgcSA9IGZhbHNlOyB9CiAgICAgICAgZWxzZSBmICs9IGM7CiAgICAgIH0gZWxzZSBpZiAoYyA9PT0gJyInKSBxID0gdHJ1ZTsKICAgICAgZWxzZSBpZiAoYyA9PT0gJywnKSB7IHJvdy5wdXNoKGYpOyBmID0gJyc7IH0KICAgICAgZWxzZSBpZiAoYyA9PT0gJ1xuJykgeyByb3cucHVzaChmKTsgcm93cy5wdXNoKHJvdyk7IHJvdyA9IFtdOyBmID0gJyc7IH0KICAgICAgZWxzZSBpZiAoYyAhPT0gJ1xyJykgZiArPSBjOwogICAgfQogICAgaWYgKGYgIT09ICcnIHx8IHJvdy5sZW5ndGgpIHsgcm93LnB1c2goZik7IHJvd3MucHVzaChyb3cpOyB9CiAgICByZXR1cm4gcm93czsKICB9CiAgZnVuY3Rpb24gdG9PYmplY3RzKHJvd3MpIHsKICAgIGlmICghcm93cy5sZW5ndGgpIHJldHVybiBbXTsKICAgIHZhciBoZWFkID0gcm93c1swXS5tYXAoZnVuY3Rpb24gKGgpIHsgcmV0dXJuIGgudHJpbSgpOyB9KTsKICAgIHJldHVybiByb3dzLnNsaWNlKDEpLmZpbHRlcihmdW5jdGlvbiAocikgeyByZXR1cm4gci5zb21lKGZ1bmN0aW9uICh4KSB7IHJldHVybiBTdHJpbmcoeCkudHJpbSgpICE9PSAnJzsgfSk7IH0pCiAgICAgIC5tYXAoZnVuY3Rpb24gKHIpIHsgdmFyIG8gPSB7fTsgaGVhZC5mb3JFYWNoKGZ1bmN0aW9uIChoLCBqKSB7IG9baF0gPSByW2pdID09IG51bGwgPyAnJyA6IHJbal07IH0pOyByZXR1cm4gbzsgfSk7CiAgfQogIGZ1bmN0aW9uIGZldGNoVGV4dCh1cmwpIHsKICAgIHJldHVybiBmZXRjaCh1cmwsIHsgY2FjaGU6ICduby1zdG9yZScsIGNyZWRlbnRpYWxzOiAnb21pdCcsIHJlZmVycmVyUG9saWN5OiAnbm8tcmVmZXJyZXInIH0pLnRoZW4oZnVuY3Rpb24gKHIpIHsKICAgICAgaWYgKCFyLm9rKSB0aHJvdyBuZXcgRXJyb3IoJ0hUVFAgJyArIHIuc3RhdHVzKTsKICAgICAgcmV0dXJuIHIudGV4dCgpOwogICAgfSkudGhlbihmdW5jdGlvbiAodCkgewogICAgICBpZiAoL15ccyo8KCFkb2N0eXBlfGh0bWwpL2kudGVzdCh0KSkgdGhyb3cgbmV3IEVycm9yKCdub3QgQ1NWJyk7CiAgICAgIHJldHVybiB0OwogICAgfSk7CiAgfQogIGZ1bmN0aW9uIGxvYWRUYWIodGFiKSB7CiAgICB2YXIgYmFzZSA9ICdodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9zcHJlYWRzaGVldHMvZC8nICsgU0hFRVRfSUQ7CiAgICB2YXIgZXhwb3J0VXJsID0gYmFzZSArICcvZXhwb3J0P2Zvcm1hdD1jc3YmZ2lkPScgKyB0YWIuZ2lkOwogICAgdmFyIGd2aXpVcmwgPSBiYXNlICsgJy9ndml6L3RxP3RxeD1vdXQ6Y3N2JmhlYWRlcnM9MSZzaGVldD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KHRhYi5uYW1lKTsKICAgIHJldHVybiBmZXRjaFRleHQoZXhwb3J0VXJsKS5jYXRjaChmdW5jdGlvbiAoKSB7IHJldHVybiBmZXRjaFRleHQoZ3ZpelVybCk7IH0pCiAgICAgIC50aGVuKGZ1bmN0aW9uICh0KSB7IHJldHVybiB0b09iamVjdHMocGFyc2VDU1YodCkpOyB9KTsKICB9CgogIC8vIC0tLS0tLS0tLS0gbW9kZWwgLS0tLS0tLS0tLQogIGZ1bmN0aW9uIGZlZUZvcih0KSB7CiAgICB2YXIgbSA9IC9jb21taXNzaW9ucyBvcGVuIFwrIGNsb3NlIFwkKFtcZCwuXSspL2kuZXhlYyh0WydFeGl0IG5vdGUnXSB8fCAnJyk7CiAgICBpZiAobSkgcmV0dXJuIG51bShtWzFdKTsKICAgIHZhciBjID0gbnVtKHRbJ0NvbnRyYWN0cyddKTsKICAgIGlmIChjID09IG51bGwpIHJldHVybiBudWxsOwogICAgdmFyIHJhdGUgPSAvXlNQWFc/JC9pLnRlc3QoU3RyaW5nKHRbJ1N5bWJvbCddKS50cmltKCkpID8gQ09NTUlTU0lPTl9TUFggOiBDT01NSVNTSU9OOwogICAgcmV0dXJuIE1hdGgucm91bmQocmF0ZSAqIDIgKiBjICogMiAqIDEwMCkgLyAxMDA7IC8vIDIgbGVncyB4IGNvbnRyYWN0cywgb3BlbiArIGNsb3NlCiAgfQogIGZ1bmN0aW9uIGJ1aWxkVHJhZGUodCkgewogICAgdmFyIGdyb3NzID0gbnVtKHRbJ1AmTCBhdCA5OjM1IGV4aXQgKCQpJ10pLCBiYXNpcyA9ICc5OjM1IEFNIGV4aXQnOwogICAgaWYgKGdyb3NzID09IG51bGwgJiYgL1NFVFRMRUQvaS50ZXN0KHRbJ1N0YXR1cyddKSAmJiBudW0odFsnUCZMIGF0IG1pZCAoJCknXSkgIT0gbnVsbCkgewogICAgICBncm9zcyA9IG51bSh0WydQJkwgYXQgbWlkICgkKSddKTsgYmFzaXMgPSAnaGVsZCB0byBleHBpcnkgKG5vIDk6MzUgZXhpdCBsb2dnZWQpJzsKICAgIH0KICAgIHZhciBmZWUgPSBmZWVGb3IodCk7CiAgICB2YXIgbmV0ID0gZ3Jvc3MgPT0gbnVsbCA/IG51bGwgOiBNYXRoLnJvdW5kKChncm9zcyAtIChmZWUgfHwgMCkpICogMTAwKSAvIDEwMDsKICAgIHZhciBjbG9zZURheSA9IFN0cmluZyh0WydFeGl0IHRpbWUnXSB8fCB0WydDbG9zZSBkYXknXSB8fCB0WydFYXJuaW5ncyBkYXRlJ10gfHwgJycpLnNsaWNlKDAsIDEwKTsKICAgIHJldHVybiB7IHJvdzogdCwgc3ltOiBTdHJpbmcodFsnU3ltYm9sJ10pLnRyaW0oKSwgZ3Jvc3M6IGdyb3NzLCBmZWU6IGZlZSwgbmV0OiBuZXQsIGJhc2lzOiBiYXNpcywKICAgICAgY2xvc2VkOiBncm9zcyAhPSBudWxsLCBjbG9zZURheTogY2xvc2VEYXksIGxvZ2dlZDogU3RyaW5nKHRbJ0xvZ2dlZCddKS50cmltKCkgfTsKICB9CiAgZnVuY3Rpb24gc3ByZWFkTmFtZShzaWRlLCBzdHJ1Y3R1cmUpIHsKICAgIHZhciBzID0gU3RyaW5nKHN0cnVjdHVyZSB8fCAnJykudHJpbSgpOwogICAgaWYgKHMpIHJldHVybiBzLmNoYXJBdCgwKS50b1VwcGVyQ2FzZSgpICsgcy5zbGljZSgxKTsKICAgIHJldHVybiBzaWRlID8gc2lkZS5jaGFyQXQoMCkudG9VcHBlckNhc2UoKSArIHNpZGUuc2xpY2UoMSkgKyAnIGNyZWRpdCBzcHJlYWQnIDogJ0NyZWRpdCBzcHJlYWQnOwogIH0KICBmdW5jdGlvbiBsZWdzKHNpZGUsIHNoLCBsbykgewogICAgaWYgKCFzaCAmJiAhbG8pIHJldHVybiAn4oCTJzsKICAgIHZhciBzID0gU3RyaW5nKHNpZGUgfHwgJycpLnRyaW0oKTsKICAgIHJldHVybiAnU2VsbCAnICsgdihzaCkgKyAnICcgKyBzICsgJyAvIGJ1eSAnICsgdihsbykgKyAnICcgKyBzOwogIH0KICBmdW5jdGlvbiByZWFzb25MYWJlbChyKSB7CiAgICByID0gU3RyaW5nKHIgfHwgJycpOwogICAgaWYgKC9ebG93IHZvbHVtZS9pLnRlc3QocikpIHJldHVybiAnT3B0aW9ucyB2b2x1bWUgdG9vIGxvdyc7CiAgICBpZiAoL3ByaWNlIGZsb29yL2kudGVzdChyKSkgcmV0dXJuICdTdG9jayB1bmRlciAkMjAnOwogICAgaWYgKC9ub3JtYWwgZGF5cy9pLnRlc3QocikpIHJldHVybiAnRWFybmluZ3MgbW92ZSB1bmRlciAzIG5vcm1hbCBkYXlzJzsKICAgIGlmICgvbm8gZXhwaXJhdGlvbnMvaS50ZXN0KHIpKSByZXR1cm4gJ05vIG9wdGlvbiBleHBpcnkgYWZ0ZXIgdGhlIHJlcG9ydCc7CiAgICBpZiAoL15nYXBwZXIvaS50ZXN0KHIpKSByZXR1cm4gJ0dhcHBlciAod29yc3QgbW92ZSB0b28gYmlnKSc7CiAgICBpZiAoL2xhc3QgeWVhci9pLnRlc3QocikpIHJldHVybiAiSW1wbGllZCBtb3ZlIGJlbG93IGxhc3QgeWVhcidzIjsKICAgIGlmICgvYXZnIHBhc3QgbW92ZS9pLnRlc3QocikpIHJldHVybiAnSW1wbGllZCBtb3ZlIGJlbG93IHRoZSBhdmVyYWdlJzsKICAgIGlmICgvdGVybSBzdHJ1Y3R1cmUvaS50ZXN0KHIpKSByZXR1cm4gJ1Rlcm0gc3RydWN0dXJlIGZsYXQnOwogICAgaWYgKC91c2FibGUgcGFzdCByZXBvcnRzfGhpc3RvcmljYWwgZWFybmluZ3MvaS50ZXN0KHIpKSByZXR1cm4gJ05vdCBlbm91Z2ggZWFybmluZ3MgaGlzdG9yeSc7CiAgICBpZiAoL2J1bXB8ZGlzdGFuY2UtcnVsZS9pLnRlc3QocikpIHJldHVybiAnTm8gc3RyaWtlIGZhciBlbm91Z2gnOwogICAgaWYgKC9jcmVkaXQvaS50ZXN0KHIpKSByZXR1cm4gJ0NyZWRpdCB0b28gc21hbGwnOwogICAgaWYgKC9zdG9jayB2b2x1bWV8c2hhcmVzL2kudGVzdChyKSkgcmV0dXJuICdTdG9jayB2b2x1bWUgdG9vIGxvdyc7CiAgICBpZiAoL2NoYWlufGdyZWVrcy9pLnRlc3QocikpIHJldHVybiAnTm8gb3B0aW9uIGRhdGEnOwogICAgdmFyIHMgPSByLnNwbGl0KCc6JylbMF0ucmVwbGFjZSgvWy0rXT9cJD9cZFtcZCwuXSolP3g/L2csICcnKS5yZXBsYWNlKC9ccysvZywgJyAnKS50cmltKCk7CiAgICByZXR1cm4gcyA/IHMuc2xpY2UoMCwgNDgpIDogJ090aGVyJzsKICB9CgogIC8vIC0tLS0tLS0tLS0gcmVuZGVyIC0tLS0tLS0tLS0KICBmdW5jdGlvbiBmYWN0KGxhYmVsLCB2YWx1ZSkgewogICAgcmV0dXJuICc8ZGl2PjxkdD4nICsgZXNjKGxhYmVsKSArICc8L2R0PjxkZD4nICsgZXNjKHZhbHVlKSArICc8L2RkPjwvZGl2Pic7CiAgfQogIGZ1bmN0aW9uIHBpY2tDYXJkKHAsIHRyLCB0YWcpIHsKICAgIHZhciBzaWRlID0gcFsnU2lkZSddOwogICAgdmFyIGh0bWwgPSAnPGFydGljbGUgY2xhc3M9InRyYWRlIj48ZGl2IGNsYXNzPSJoZWFkIj48ZGl2PjxzcGFuIGNsYXNzPSJzeW0iPicgKyBlc2MocFsnU3ltYm9sJ10pICsgJzwvc3Bhbj4gJyArCiAgICAgICc8c3BhbiBjbGFzcz0id2hhdCI+JyArIGVzYyhzcHJlYWROYW1lKHNpZGUsIHBbJ1N0cnVjdHVyZSddKSkgKyAnPC9zcGFuPjwvZGl2PicgKyAodGFnIHx8ICcnKSArICc8L2Rpdj4nOwogICAgaHRtbCArPSAnPHAgY2xhc3M9Im5vdGUiIHN0eWxlPSJtYXJnaW4tdG9wOjRweCI+JyArIGVzYyhsZWdzKHNpZGUsIHBbJ1Nob3J0J10sIHBbJ0xvbmcnXSkpICsKICAgICAgKHBbJ0V4cGlyYXRpb24nXSA/ICcgwrcgZXhwaXJlcyAnICsgZXNjKGZtdERhdGUocFsnRXhwaXJhdGlvbiddKSkgOiAnJykgKyAnPC9wPic7CiAgICBodG1sICs9ICc8ZGwgY2xhc3M9ImZhY3RzIj4nICsKICAgICAgZmFjdCgnRWFybmluZ3MnLCB0ciA/IGZtdERhdGUodHIucm93WydFYXJuaW5ncyBkYXRlJ10pICsgKHRyLnJvd1snUmVwb3J0IHRpbWluZyddID8gJyAoJyArIHRyLnJvd1snUmVwb3J0IHRpbWluZyddICsgJyknIDogJycpIDogJ+KAkycpICsKICAgICAgZmFjdCgnQ3JlZGl0IChtaWQpJywgcFsnQ3JlZGl0IChtaWQpJ10gPyAnJCcgKyB2KHBbJ0NyZWRpdCAobWlkKSddKSA6ICfigJMnKSArCiAgICAgIGZhY3QoJ0NyZWRpdCAvIHdpZHRoJywgdihwWydDcmVkaXQvd2lkdGgnXSkpICsKICAgICAgZmFjdCgnQ29udHJhY3RzJywgdihwWydDb250cmFjdHMgKCQxayBtYXggbG9zcyknXSkpICsKICAgICAgZmFjdCgnTWF4IGxvc3MnLCBwWydNYXggbG9zcyAkJ10gPyBtb25leShudW0ocFsnTWF4IGxvc3MgJCddKSkgOiAn4oCTJykgKwogICAgICBmYWN0KCdJbXBsaWVkIG1vdmUnLCB2KHBbJ0ltcGxpZWQgZWFybiBtb3ZlJ10pKSArCiAgICAgIGZhY3QoJ0F2ZyBwYXN0IG1vdmUnLCB2KHBbJ0F2ZyBwYXN0IG1vdmUnXSkpICsKICAgICAgZmFjdCgnSW1wbGllZCDDtyBhdmcnLCB2KHBbJ0ltcGxpZWQvaGlzdCddKSkgKwogICAgICBmYWN0KCdJViDDtyBIVicsIHYocFsnSVYvSFYnXSkpICsKICAgICAgZmFjdCgnSW1wbGllZCDDtyBsYXN0IHlyJywgdihwWydJbXBsaWVkIC8gbGFzdCB5ciddKSkgKwogICAgICBmYWN0KCdOYXR1cmFsIGNyZWRpdCcsIHBbJ05hdHVyYWwgY3JlZGl0J10gPyAnJCcgKyB2KHBbJ05hdHVyYWwgY3JlZGl0J10pIDogJ+KAkycpICsKICAgICAgZmFjdCgnU3RyaWtlIGZyb20nLCB2KHBbJ1N0cmlrZSBzb3VyY2UnXSkpICsKICAgICAgJzwvZGw+JzsKICAgIHZhciB3aGVuID0gdXRjU3RhbXAocFsnVGltZSddKTsKICAgIGh0bWwgKz0gJzxwIGNsYXNzPSJub3RlIj5QaWNrZWQgJyArIGVzYyh3aGVuID8gZm10RVQod2hlbikgOiB2KHBbJ1RpbWUnXSkpICsgKHBbJ1JhbmsnXSA/ICcgwrcgcmFuayAjJyArIGVzYyhwWydSYW5rJ10pIDogJycpICsgJzwvcD4nOwogICAgcmV0dXJuIGh0bWwgKyAnPC9hcnRpY2xlPic7CiAgfQogIGZ1bmN0aW9uIHRyYWRlQ2FyZCh0LCBvcGVuLCBwaWNrKSB7CiAgICB2YXIgciA9IHQucm93LCBwaWxsOwogICAgaWYgKG9wZW4pIHBpbGwgPSAnPHNwYW4gY2xhc3M9InBpbGwgb3BlbiI+JyArIGVzYyh2KHJbJ1N0YXR1cyddKS50b0xvd2VyQ2FzZSgpID09PSAnb3BlbicgPyAnT3BlbicgOiB2KHJbJ1N0YXR1cyddKSkgKyAnPC9zcGFuPic7CiAgICBlbHNlIHBpbGwgPSAnPHNwYW4gY2xhc3M9InBpbGwgJyArICh0Lm5ldCA+IDAgPyAnd2luJyA6IHQubmV0IDwgMCA/ICdsb3NzJyA6ICcnKSArICciPicgKyAodC5uZXQgPiAwID8gJ1dpbicgOiB0Lm5ldCA8IDAgPyAnTG9zcycgOiAnRmxhdCcpICsgJzwvc3Bhbj4nOwogICAgdmFyIGh0bWwgPSAnPGFydGljbGUgY2xhc3M9InRyYWRlIj48ZGl2IGNsYXNzPSJoZWFkIj48ZGl2PjxzcGFuIGNsYXNzPSJzeW0iPicgKyBlc2ModC5zeW0pICsgJzwvc3Bhbj4gPHNwYW4gY2xhc3M9IndoYXQiPicgKwogICAgICBlc2Moc3ByZWFkTmFtZShyWydTaWRlJ10sICcnKSkgKyAnPC9zcGFuPjwvZGl2PicgKyBwaWxsICsgJzwvZGl2Pic7CiAgICBodG1sICs9ICc8cCBjbGFzcz0ibm90ZSIgc3R5bGU9Im1hcmdpbi10b3A6NHB4Ij4nICsgZXNjKGxlZ3MoclsnU2lkZSddLCByWydTaG9ydCBzdHJpa2UnXSwgclsnTG9uZyBzdHJpa2UnXSkpICsKICAgICAgJyDCtyAnICsgZXNjKHYoclsnQ29udHJhY3RzJ10pKSArICcgY29udHJhY3QnICsgKG51bShyWydDb250cmFjdHMnXSkgPT09IDEgPyAnJyA6ICdzJykgKyAnIMK3IGNyZWRpdCAkJyArIGVzYyh2KHJbJ0NyZWRpdCAobWlkKSddKSkgKyAnPC9wPic7CiAgICBpZiAoIW9wZW4pIHsKICAgICAgaHRtbCArPSAnPHAgY2xhc3M9ImJpZyAnICsgY2xzKHQubmV0KSArICciIHN0eWxlPSJtYXJnaW46OHB4IDAgMCI+JyArIG1vbmV5KHQubmV0LCB0cnVlKSArICc8L3A+JyArCiAgICAgICAgJzxwIGNsYXNzPSJub3RlIiBzdHlsZT0ibWFyZ2luLXRvcDowIj5hZnRlciAnICsgbW9uZXkodC5mZWUpICsgJyBjb21taXNzaW9uIMK3ICcgKyBtb25leSh0Lmdyb3NzLCB0cnVlKSArICcgYmVmb3JlPC9wPic7CiAgICB9CiAgICBodG1sICs9ICc8ZGwgY2xhc3M9ImZhY3RzIj4nICsKICAgICAgZmFjdCgnRWFybmluZ3MnLCBmbXREYXRlKHJbJ0Vhcm5pbmdzIGRhdGUnXSkgKyAoclsnUmVwb3J0IHRpbWluZyddID8gJyAoJyArIHJbJ1JlcG9ydCB0aW1pbmcnXSArICcpJyA6ICcnKSkgKwogICAgICBmYWN0KCdFbnRyeSBwcmljZScsIHJbJ0VudHJ5IHNwb3QnXSA/ICckJyArIHYoclsnRW50cnkgc3BvdCddKSA6ICfigJMnKSArCiAgICAgIGZhY3QoJ0ltcGxpZWQgbW92ZScsIHYoclsnSW1wbGllZCBtb3ZlJ10pKSArCiAgICAgIGZhY3QoJ01vdmUgYWZ0ZXInLCB2KHJbJ01vdmUgYWZ0ZXIgZWFybmluZ3MnXSkpOwogICAgaWYgKCFvcGVuKSB7CiAgICAgIGh0bWwgKz0gZmFjdCgnRXhpdCAoOTozNSknLCByWydFeGl0IHRpbWUnXSA/IGZtdERhdGUoclsnRXhpdCB0aW1lJ10pIDogJ+KAkycpICsKICAgICAgICBmYWN0KCdQcmljZSBhdCBleGl0JywgclsnRXhpdCBzcG90ICg5OjM1KSddID8gJyQnICsgdihyWydFeGl0IHNwb3QgKDk6MzUpJ10pIDogJ+KAkycpICsKICAgICAgICBmYWN0KCdTaG9ydCBzdHJpa2UgaGl0JywgdihyWydTaG9ydCBicmVhY2hlZCBhdCA5OjM1J10pKSArCiAgICAgICAgZmFjdCgnSWYgaGVsZCB0byBleHBpcnknLCByWydQJkwgYXQgbWlkICgkKSddID8gbW9uZXkobnVtKHJbJ1AmTCBhdCBtaWQgKCQpJ10pLCB0cnVlKSArICcgYmVmb3JlIGZlZXMnIDogJ+KAkycpOwogICAgfSBlbHNlIHsKICAgICAgaHRtbCArPSBmYWN0KCdDbG9zZXMnLCByWydDbG9zZSBkYXknXSA/IGZtdERhdGUoclsnQ2xvc2UgZGF5J10pIDogJ21vcm5pbmcgYWZ0ZXIgcmVwb3J0JykgKwogICAgICAgIGZhY3QoJ0V4cGlyZXMnLCBmbXREYXRlKHJbJ0V4cGlyYXRpb24nXSkpOwogICAgfQogICAgaHRtbCArPSAnPC9kbD4nOwogICAgaWYgKCFvcGVuICYmIHQuYmFzaXMgIT09ICc5OjM1IEFNIGV4aXQnKSBodG1sICs9ICc8cCBjbGFzcz0ibm90ZSI+UCZhbXA7TCBiYXNpczogJyArIGVzYyh0LmJhc2lzKSArICcuPC9wPic7CiAgICB2YXIgc3RjID0gcGljayA/IFN0cmluZyhwaWNrWydTdHJ1Y3R1cmUnXSB8fCAnJykudHJpbSgpIDogJyc7CiAgICBpZiAoc3RjICYmICEvXihwdXR8Y2FsbCkgY3JlZGl0IHNwcmVhZCQvaS50ZXN0KHN0YykpIGh0bWwgKz0gJzxwIGNsYXNzPSJub3RlIj5UaGUgc2NhbiBsaXN0ZWQgdGhpcyBwaWNrIGFzOiAnICsgZXNjKHN0YykgKyAnLiBUaGUgVHJhY2tlZCB0YWIgZm9sbG93cyB0aGUgJyArIGVzYyh2KHJbJ1NpZGUnXSkpICsgJyBzcHJlYWQgc2hvd24gaGVyZS48L3A+JzsKICAgIHJldHVybiBodG1sICsgJzwvYXJ0aWNsZT4nOwogIH0KICBmdW5jdGlvbiBlcXVpdHlDaGFydChjbG9zZWQpIHsKICAgIHZhciBwdHMgPSBjbG9zZWQuc2xpY2UoKS5zb3J0KGZ1bmN0aW9uIChhLCBiKSB7IHJldHVybiAoYS5jbG9zZURheSArIGEubG9nZ2VkKS5sb2NhbGVDb21wYXJlKGIuY2xvc2VEYXkgKyBiLmxvZ2dlZCk7IH0pOwogICAgdmFyIGN1bSA9IDAsIHlzID0gWzBdLCBsYWJlbHMgPSBbJ1N0YXJ0J107CiAgICBwdHMuZm9yRWFjaChmdW5jdGlvbiAodCkgeyBjdW0gKz0gdC5uZXQ7IHlzLnB1c2goTWF0aC5yb3VuZChjdW0gKiAxMDApIC8gMTAwKTsgbGFiZWxzLnB1c2godC5zeW0pOyB9KTsKICAgIHZhciBXID0gNDIwLCBIID0gMjEwLCBMID0gNTgsIFIgPSAxMiwgVCA9IDE0LCBCID0gMzA7CiAgICB2YXIgbG8gPSBNYXRoLm1pbi5hcHBseShudWxsLCB5cy5jb25jYXQoMCkpLCBoaSA9IE1hdGgubWF4LmFwcGx5KG51bGwsIHlzLmNvbmNhdCgwKSk7CiAgICB2YXIgbWluID0gbG8sIG1heCA9IGhpOwogICAgaWYgKG1heCA9PT0gbWluKSB7IG1heCArPSAxOyBtaW4gLT0gMTsgfQogICAgdmFyIHBhZCA9IChtYXggLSBtaW4pICogMC4xOyBtYXggKz0gcGFkOyBtaW4gLT0gcGFkOwogICAgdmFyIGdyaWQgPSBbaGksIDAsIGxvXS5maWx0ZXIoZnVuY3Rpb24gKGcsIGksIGFycikgeyByZXR1cm4gYXJyLmluZGV4T2YoZykgPT09IGk7IH0pOwogICAgZnVuY3Rpb24gWChpKSB7IHJldHVybiBMICsgKHlzLmxlbmd0aCA9PT0gMSA/IDAgOiBpICogKFcgLSBMIC0gUikgLyAoeXMubGVuZ3RoIC0gMSkpOyB9CiAgICBmdW5jdGlvbiBZKHkpIHsgcmV0dXJuIFQgKyAobWF4IC0geSkgKiAoSCAtIFQgLSBCKSAvIChtYXggLSBtaW4pOyB9CiAgICB2YXIgZCA9IHlzLm1hcChmdW5jdGlvbiAoeSwgaSkgeyByZXR1cm4gKGkgPyAnTCcgOiAnTScpICsgWChpKS50b0ZpeGVkKDEpICsgJyAnICsgWSh5KS50b0ZpeGVkKDEpOyB9KS5qb2luKCcgJyk7CiAgICB2YXIgbGFzdCA9IHlzW3lzLmxlbmd0aCAtIDFdLCBjb2xvciA9IGxhc3QgPj0gMCA/ICcjMDQ3ODU3JyA6ICcjYjkxYzFjJzsKICAgIHZhciBzdmcgPSAnPHN2ZyBjbGFzcz0iY2hhcnQiIHZpZXdCb3g9IjAgMCAnICsgVyArICcgJyArIEggKyAnIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJ1bm5pbmcgdG90YWwgb2YgY2xvc2VkIHBhcGVyLXRyYWRlIFAmTCBhZnRlciBjb21taXNzaW9uLCBlbmRpbmcgYXQgJyArIGVzYyhtb25leShsYXN0LCB0cnVlKSkgKyAnIj4nOwogICAgZ3JpZC5mb3JFYWNoKGZ1bmN0aW9uIChnKSB7CiAgICAgIHN2ZyArPSAnPGxpbmUgeDE9IicgKyBMICsgJyIgeDI9IicgKyAoVyAtIFIpICsgJyIgeTE9IicgKyBZKGcpLnRvRml4ZWQoMSkgKyAnIiB5Mj0iJyArIFkoZykudG9GaXhlZCgxKSArICciIHN0cm9rZT0iJyArIChnID09PSAwID8gJyM5NGEzYjgnIDogJyNlMmU4ZjAnKSArICciIHN0cm9rZS1kYXNoYXJyYXk9IicgKyAoZyA9PT0gMCA/ICcwJyA6ICc0IDQnKSArICciLz4nICsKICAgICAgICAnPHRleHQgeD0iJyArIChMIC0gNikgKyAnIiB5PSInICsgKFkoZykgKyA0KS50b0ZpeGVkKDEpICsgJyIgdGV4dC1hbmNob3I9ImVuZCI+JyArIGVzYyhtb25leShNYXRoLnJvdW5kKGcpKSkgKyAnPC90ZXh0Pic7CiAgICB9KTsKICAgIHN2ZyArPSAnPHBhdGggZD0iJyArIGQgKyAnIiBmaWxsPSJub25lIiBzdHJva2U9IicgKyBjb2xvciArICciIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+JzsKICAgIHlzLmZvckVhY2goZnVuY3Rpb24gKHksIGkpIHsKICAgICAgc3ZnICs9ICc8Y2lyY2xlIGN4PSInICsgWChpKS50b0ZpeGVkKDEpICsgJyIgY3k9IicgKyBZKHkpLnRvRml4ZWQoMSkgKyAnIiByPSI0LjUiIGZpbGw9IiNmZmYiIHN0cm9rZT0iJyArIGNvbG9yICsgJyIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4nOwogICAgICBzdmcgKz0gJzx0ZXh0IHg9IicgKyBYKGkpLnRvRml4ZWQoMSkgKyAnIiB5PSInICsgKEggLSAxMikgKyAnIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4nICsgZXNjKGxhYmVsc1tpXSkgKyAnPC90ZXh0Pic7CiAgICB9KTsKICAgIHJldHVybiBzdmcgKyAnPC9zdmc+JzsKICB9CgogIGZ1bmN0aW9uIHJlbmRlcihzY2FuLCB0cmFja2VkKSB7CiAgICB2YXIgdG9kYXkgPSB0b2RheUVUKCk7CiAgICAvLyBUcmFja2VkIHRyYWRlcwogICAgdmFyIHRyYWRlcyA9IHRyYWNrZWQuZmlsdGVyKGZ1bmN0aW9uICh0KSB7IHJldHVybiAvXlRSQURFJC9pLnRlc3QoU3RyaW5nKHRbJ1NpZ25hbCddKS50cmltKCkpOyB9KS5tYXAoYnVpbGRUcmFkZSk7CiAgICB2YXIgbmVhck1pc3MgPSB0cmFja2VkLmZpbHRlcihmdW5jdGlvbiAodCkgeyByZXR1cm4gIS9eVFJBREUkL2kudGVzdChTdHJpbmcodFsnU2lnbmFsJ10pLnRyaW0oKSkgJiYgU3RyaW5nKHRbJ1N5bWJvbCddKS50cmltKCk7IH0pOwogICAgdmFyIGNsb3NlZCA9IHRyYWRlcy5maWx0ZXIoZnVuY3Rpb24gKHQpIHsgcmV0dXJuIHQuY2xvc2VkOyB9KTsKICAgIHZhciBvcGVuID0gdHJhZGVzLmZpbHRlcihmdW5jdGlvbiAodCkgeyByZXR1cm4gIXQuY2xvc2VkOyB9KTsKICAgIGZ1bmN0aW9uIHBpY2tGb3IodCkgewogICAgICByZXR1cm4gc2Nhbi5maWx0ZXIoZnVuY3Rpb24gKHApIHsgcmV0dXJuIFN0cmluZyhwWydTeW1ib2wnXSkudHJpbSgpID09PSB0LnN5bSAmJiBTdHJpbmcocFsnVGltZSddKS50cmltKCkgPT09IHQubG9nZ2VkICYmIC9eVFJBREUkL2kudGVzdChTdHJpbmcocFsnU3RhdHVzJ10pLnRyaW0oKSk7IH0pWzBdIHx8IG51bGw7CiAgICB9CiAgICBmdW5jdGlvbiB0ckZvcihwKSB7CiAgICAgIHZhciBzeW0gPSBTdHJpbmcocFsnU3ltYm9sJ10pLnRyaW0oKSwgdG0gPSBTdHJpbmcocFsnVGltZSddKS50cmltKCk7CiAgICAgIHZhciBtID0gdHJhZGVzLmZpbHRlcihmdW5jdGlvbiAodCkgeyByZXR1cm4gdC5zeW0gPT09IHN5bSAmJiB0LmxvZ2dlZCA9PT0gdG07IH0pWzBdOwogICAgICByZXR1cm4gbSB8fCB0cmFkZXMuZmlsdGVyKGZ1bmN0aW9uICh0KSB7IHJldHVybiB0LnN5bSA9PT0gc3ltICYmIHQubG9nZ2VkLnNsaWNlKDAsIDEwKSA9PT0gdG0uc2xpY2UoMCwgMTApOyB9KVswXSB8fCBudWxsOwogICAgfQoKICAgIC8vIC0tLS0tIGxhdGVzdCBzY2FuIC0tLS0tCiAgICB2YXIgc3RhbXBlZCA9IHNjYW4ubWFwKGZ1bmN0aW9uIChyKSB7IHZhciBkID0gdXRjU3RhbXAoclsnVGltZSddKTsgcmV0dXJuIGQgPyB7IHI6IHIsIGQ6IGQsIGRheTogZXRQYXJ0cyhkKSB9IDogbnVsbDsgfSkuZmlsdGVyKEJvb2xlYW4pOwogICAgdmFyIGxhc3REYXkgPSBzdGFtcGVkLnJlZHVjZShmdW5jdGlvbiAobSwgeCkgeyByZXR1cm4geC5kYXkgPiBtID8geC5kYXkgOiBtOyB9LCAnJyk7CiAgICB2YXIgbGF0ZXN0ID0gc3RhbXBlZC5maWx0ZXIoZnVuY3Rpb24gKHgpIHsgcmV0dXJuIHguZGF5ID09PSBsYXN0RGF5OyB9KTsKICAgIHZhciBsYXN0VGltZSA9IGxhdGVzdC5yZWR1Y2UoZnVuY3Rpb24gKG0sIHgpIHsgcmV0dXJuICFtIHx8IHguZCA+IG0gPyB4LmQgOiBtOyB9LCBudWxsKTsKICAgIHZhciBzYiA9ICcnOwogICAgaWYgKCFsYXRlc3QubGVuZ3RoKSB7CiAgICAgIHNiID0gJzxwIGNsYXNzPSJlbXB0eSI+Tm8gc2NhbnMgaW4gdGhlIHNoZWV0IHlldC48L3A+JzsKICAgIH0gZWxzZSB7CiAgICAgIHZhciBjbnQgPSB7IFRSQURFOiAwLCBDQU5ESURBVEU6IDAsIFNLSVA6IDAgfTsKICAgICAgbGF0ZXN0LmZvckVhY2goZnVuY3Rpb24gKHgpIHsgdmFyIHMgPSBTdHJpbmcoeC5yWydTdGF0dXMnXSkudHJpbSgpLnRvVXBwZXJDYXNlKCk7IGNudFtzXSA9IChjbnRbc10gfHwgMCkgKyAxOyB9KTsKICAgICAgc2IgKz0gJzxwPjxzdHJvbmc+JyArIGVzYyhmbXRFVChsYXN0VGltZSkpICsgJzwvc3Ryb25nPicgKyAobGFzdERheSA9PT0gdG9kYXkgPyAnIMK3IHRvZGF5JyA6ICcnKSArICc8L3A+JzsKICAgICAgc2IgKz0gJzxkaXYgY2xhc3M9ImtwaXMiPjxkaXYgY2xhc3M9ImtwaSI+PGRpdiBjbGFzcz0idiI+JyArIGxhdGVzdC5sZW5ndGggKyAnPC9kaXY+PGRpdiBjbGFzcz0ibCI+U3RvY2tzIGNoZWNrZWQ8L2Rpdj48L2Rpdj4nICsKICAgICAgICAnPGRpdiBjbGFzcz0ia3BpIj48ZGl2IGNsYXNzPSJ2Ij4nICsgY250LlRSQURFICsgJzwvZGl2PjxkaXYgY2xhc3M9ImwiPlRyYWRlczwvZGl2PjwvZGl2PicgKwogICAgICAgICc8ZGl2IGNsYXNzPSJrcGkiPjxkaXYgY2xhc3M9InYiPicgKyAoY250LkNBTkRJREFURSB8fCAwKSArICc8L2Rpdj48ZGl2IGNsYXNzPSJsIj5DYW5kaWRhdGVzPC9kaXY+PC9kaXY+JyArCiAgICAgICAgJzxkaXYgY2xhc3M9ImtwaSI+PGRpdiBjbGFzcz0idiI+JyArIGNudC5TS0lQICsgJzwvZGl2PjxkaXYgY2xhc3M9ImwiPlNraXBwZWQ8L2Rpdj48L2Rpdj48L2Rpdj4nOwogICAgICB2YXIgcmVhc29ucyA9IHt9OwogICAgICBsYXRlc3QuZm9yRWFjaChmdW5jdGlvbiAoeCkgeyBpZiAoL15TS0lQJC9pLnRlc3QoU3RyaW5nKHguclsnU3RhdHVzJ10pLnRyaW0oKSkpIHsgdmFyIGwgPSByZWFzb25MYWJlbCh4LnJbJ1JlYXNvbiAvIHJhbmsnXSk7IHJlYXNvbnNbbF0gPSAocmVhc29uc1tsXSB8fCAwKSArIDE7IH0gfSk7CiAgICAgIHZhciBybCA9IE9iamVjdC5rZXlzKHJlYXNvbnMpLnNvcnQoZnVuY3Rpb24gKGEsIGIpIHsgcmV0dXJuIHJlYXNvbnNbYl0gLSByZWFzb25zW2FdOyB9KTsKICAgICAgaWYgKHJsLmxlbmd0aCkgewogICAgICAgIHZhciB0b3AgPSByZWFzb25zW3JsWzBdXTsKICAgICAgICBzYiArPSAnPHAgY2xhc3M9InNtYWxsIG11dGVkIiBzdHlsZT0ibWFyZ2luLWJvdHRvbTo2cHgiPldoeSBzdG9ja3Mgd2VyZSBza2lwcGVkPC9wPjx1bCBjbGFzcz0iYmFycyI+JyArIHJsLnNsaWNlKDAsIDYpLm1hcChmdW5jdGlvbiAoaykgewogICAgICAgICAgcmV0dXJuICc8bGk+PHNwYW4+JyArIGVzYyhrKSArICc8L3NwYW4+PGI+JyArIHJlYXNvbnNba10gKyAnPC9iPjxzcGFuIGNsYXNzPSJiYXIiPjxzcGFuIHN0eWxlPSJ3aWR0aDonICsgTWF0aC5tYXgoNCwgTWF0aC5yb3VuZChyZWFzb25zW2tdIC8gdG9wICogMTAwKSkgKyAnJSI+PC9zcGFuPjwvc3Bhbj48L2xpPic7CiAgICAgICAgfSkuam9pbignJykgKyAnPC91bD4nOwogICAgICB9CiAgICAgIHZhciBvcmRlciA9IHsgVFJBREU6IDAsIENBTkRJREFURTogMSB9OwogICAgICB2YXIgbGlzdCA9IGxhdGVzdC5zbGljZSgpLnNvcnQoZnVuY3Rpb24gKGEsIGIpIHsKICAgICAgICB2YXIgc2EgPSBvcmRlcltTdHJpbmcoYS5yWydTdGF0dXMnXSkudHJpbSgpLnRvVXBwZXJDYXNlKCldLCBzYmIgPSBvcmRlcltTdHJpbmcoYi5yWydTdGF0dXMnXSkudHJpbSgpLnRvVXBwZXJDYXNlKCldOwogICAgICAgIHJldHVybiAoc2EgPT0gbnVsbCA/IDIgOiBzYSkgLSAoc2JiID09IG51bGwgPyAyIDogc2JiKSB8fCBTdHJpbmcoYS5yWydTeW1ib2wnXSkubG9jYWxlQ29tcGFyZShTdHJpbmcoYi5yWydTeW1ib2wnXSkpOwogICAgICB9KTsKICAgICAgc2IgKz0gJzxkZXRhaWxzPjxzdW1tYXJ5PlNlZSBhbGwgJyArIGxhdGVzdC5sZW5ndGggKyAnIHN0b2Nrczwvc3VtbWFyeT48dWwgY2xhc3M9InRpY2stbGlzdCI+JyArIGxpc3QubWFwKGZ1bmN0aW9uICh4KSB7CiAgICAgICAgcmV0dXJuICc8bGk+PGI+JyArIGVzYyh4LnJbJ1N5bWJvbCddKSArICc8L2I+IDxzcGFuIGNsYXNzPSJwaWxsJyArICgvVFJBREUvaS50ZXN0KHguclsnU3RhdHVzJ10pID8gJyB3aW4nIDogJycpICsgJyI+JyArIGVzYyh2KHguclsnU3RhdHVzJ10pKSArICc8L3NwYW4+IDxzcGFuIGNsYXNzPSJtdXRlZCI+JyArIGVzYyh2KHguclsnUmVhc29uIC8gcmFuayddKSkgKyAnPC9zcGFuPjwvbGk+JzsKICAgICAgfSkuam9pbignJykgKyAnPC91bD48L2RldGFpbHM+JzsKICAgIH0KICAgICQoJ3NjYW4tYm9keScpLmlubmVySFRNTCA9IHNiOwoKICAgIC8vIC0tLS0tIHBpY2tzIC0tLS0tCiAgICB2YXIgYWxsUGlja3MgPSBzY2FuLmZpbHRlcihmdW5jdGlvbiAocikgeyByZXR1cm4gL14oVFJBREV8Q0FORElEQVRFKSQvaS50ZXN0KFN0cmluZyhyWydTdGF0dXMnXSkudHJpbSgpKTsgfSkKICAgICAgLnNvcnQoZnVuY3Rpb24gKGEsIGIpIHsgcmV0dXJuIFN0cmluZyhiWydUaW1lJ10pLmxvY2FsZUNvbXBhcmUoU3RyaW5nKGFbJ1RpbWUnXSkpOyB9KTsKICAgIHZhciBjdXJyZW50ID0gYWxsUGlja3MuZmlsdGVyKGZ1bmN0aW9uIChwKSB7CiAgICAgIHZhciBkID0gdXRjU3RhbXAocFsnVGltZSddKSwgdHIgPSB0ckZvcihwKTsKICAgICAgaWYgKHRyKSByZXR1cm4gIXRyLmNsb3NlZDsKICAgICAgcmV0dXJuIGQgJiYgZXRQYXJ0cyhkKSA9PT0gbGFzdERheTsKICAgIH0pOwogICAgJCgncGlja3MtYm9keScpLmlubmVySFRNTCA9IGN1cnJlbnQubGVuZ3RoID8gY3VycmVudC5tYXAoZnVuY3Rpb24gKHApIHsKICAgICAgdmFyIHRyID0gdHJGb3IocCksIHN0ID0gU3RyaW5nKHBbJ1N0YXR1cyddKS50cmltKCkudG9VcHBlckNhc2UoKTsKICAgICAgcmV0dXJuIHBpY2tDYXJkKHAsIHRyLCAnPHNwYW4gY2xhc3M9InBpbGwnICsgKHN0ID09PSAnVFJBREUnID8gJyBvcGVuJyA6ICcnKSArICciPicgKyAoc3QgPT09ICdUUkFERScgPyAnVHJhZGUnIDogJ0NhbmRpZGF0ZScpICsgJzwvc3Bhbj4nKTsKICAgIH0pLmpvaW4oJycpIDogJzxwIGNsYXNzPSJlbXB0eSI+Tm8gb3BlbiBwaWNrcyByaWdodCBub3cuJyArIChsYXRlc3QubGVuZ3RoID8gJyBUaGUgbGFzdCBzY2FuICgnICsgZXNjKGZtdERhdGUobGFzdERheSkpICsgJykgZm91bmQgbm8gdHJhZGUuJyA6ICcnKSArICcgTmV3IHBpY2tzIHNob3cgdXAgaGVyZSBhZnRlciB0aGUgMTEgQU0gRVQgc2Nhbi48L3A+JzsKCiAgICAvLyAtLS0tLSBzdGF0cyAtLS0tLQogICAgdmFyIHN0ID0gJyc7CiAgICBpZiAoIWNsb3NlZC5sZW5ndGgpIHsKICAgICAgc3QgPSAnPHAgY2xhc3M9ImVtcHR5Ij5ObyBjbG9zZWQgcGFwZXIgdHJhZGVzIHlldC4gUmVzdWx0cyBhcHBlYXIgYWZ0ZXIgdGhlIGZpcnN0IHRyYWRlIGNsb3Nlcy48L3A+JzsKICAgIH0gZWxzZSB7CiAgICAgIHZhciB3aW5zID0gY2xvc2VkLmZpbHRlcihmdW5jdGlvbiAodCkgeyByZXR1cm4gdC5uZXQgPiAwOyB9KS5sZW5ndGg7CiAgICAgIHZhciB0b3RhbCA9IGNsb3NlZC5yZWR1Y2UoZnVuY3Rpb24gKHMsIHQpIHsgcmV0dXJuIHMgKyB0Lm5ldDsgfSwgMCk7CiAgICAgIHZhciBmZWVzID0gY2xvc2VkLnJlZHVjZShmdW5jdGlvbiAocywgdCkgeyByZXR1cm4gcyArICh0LmZlZSB8fCAwKTsgfSwgMCk7CiAgICAgIHZhciB3b3JzdCA9IGNsb3NlZC5yZWR1Y2UoZnVuY3Rpb24gKG0sIHQpIHsgcmV0dXJuIHQubmV0IDwgbS5uZXQgPyB0IDogbTsgfSwgY2xvc2VkWzBdKTsKICAgICAgdmFyIGJlc3QgPSBjbG9zZWQucmVkdWNlKGZ1bmN0aW9uIChtLCB0KSB7IHJldHVybiB0Lm5ldCA+IG0ubmV0ID8gdCA6IG07IH0sIGNsb3NlZFswXSk7CiAgICAgIHN0ICs9ICc8ZGl2IGNsYXNzPSJrcGlzIGs2Ij4nICsKICAgICAgICAnPGRpdiBjbGFzcz0ia3BpIj48ZGl2IGNsYXNzPSJ2Ij4nICsgY2xvc2VkLmxlbmd0aCArICc8L2Rpdj48ZGl2IGNsYXNzPSJsIj5DbG9zZWQgdHJhZGVzPC9kaXY+PC9kaXY+JyArCiAgICAgICAgJzxkaXYgY2xhc3M9ImtwaSI+PGRpdiBjbGFzcz0idiI+JyArIE1hdGgucm91bmQod2lucyAvIGNsb3NlZC5sZW5ndGggKiAxMDApICsgJyU8L2Rpdj48ZGl2IGNsYXNzPSJsIj5XaW4gcmF0ZSAoJyArIHdpbnMgKyAnIG9mICcgKyBjbG9zZWQubGVuZ3RoICsgJyk8L2Rpdj48L2Rpdj4nICsKICAgICAgICAnPGRpdiBjbGFzcz0ia3BpIj48ZGl2IGNsYXNzPSJ2ICcgKyBjbHModG90YWwpICsgJyI+JyArIG1vbmV5KHRvdGFsLCB0cnVlKSArICc8L2Rpdj48ZGl2IGNsYXNzPSJsIj5Ub3RhbCBQJmFtcDtMPC9kaXY+PC9kaXY+JyArCiAgICAgICAgJzxkaXYgY2xhc3M9ImtwaSI+PGRpdiBjbGFzcz0idiAnICsgY2xzKHRvdGFsKSArICciPicgKyBtb25leShNYXRoLnJvdW5kKHRvdGFsIC8gY2xvc2VkLmxlbmd0aCAqIDEwMCkgLyAxMDAsIHRydWUpICsgJzwvZGl2PjxkaXYgY2xhc3M9ImwiPkF2ZyBwZXIgdHJhZGU8L2Rpdj48L2Rpdj4nICsKICAgICAgICAnPGRpdiBjbGFzcz0ia3BpIj48ZGl2IGNsYXNzPSJ2ICcgKyBjbHMoYmVzdC5uZXQpICsgJyI+JyArIG1vbmV5KGJlc3QubmV0LCB0cnVlKSArICc8L2Rpdj48ZGl2IGNsYXNzPSJsIj5CZXN0IHRyYWRlICgnICsgZXNjKGJlc3Quc3ltKSArICcpPC9kaXY+PC9kaXY+JyArCiAgICAgICAgJzxkaXYgY2xhc3M9ImtwaSI+PGRpdiBjbGFzcz0idiAnICsgY2xzKHdvcnN0Lm5ldCkgKyAnIj4nICsgbW9uZXkod29yc3QubmV0LCB0cnVlKSArICc8L2Rpdj48ZGl2IGNsYXNzPSJsIj4nICsgKHdvcnN0Lm5ldCA8IDAgPyAnQmlnZ2VzdCBsb3NzJyA6ICdTbWFsbGVzdCB3aW4nKSArICcgKCcgKyBlc2Mod29yc3Quc3ltKSArICcpPC9kaXY+PC9kaXY+JyArCiAgICAgICAgJzwvZGl2Pic7CiAgICAgIHN0ICs9IGVxdWl0eUNoYXJ0KGNsb3NlZCk7CiAgICAgIHN0ICs9ICc8cCBjbGFzcz0ibm90ZSI+UnVubmluZyB0b3RhbCBhZnRlciBjb21taXNzaW9uLiBDb21taXNzaW9ucyBzbyBmYXI6ICcgKyBtb25leShmZWVzKSArICcuJyArCiAgICAgICAgKG9wZW4ubGVuZ3RoID8gJyAnICsgb3Blbi5sZW5ndGggKyAnIHRyYWRlJyArIChvcGVuLmxlbmd0aCA9PT0gMSA/ICcgaXMnIDogJ3MgYXJlJykgKyAnIHN0aWxsIG9wZW4gYW5kIG5vdCBjb3VudGVkLicgOiAnJykgKyAnPC9wPic7CiAgICB9CiAgICAkKCdzdGF0cy1ib2R5JykuaW5uZXJIVE1MID0gc3Q7CgogICAgLy8gLS0tLS0gb3BlbiAvIGNsb3NlZCAtLS0tLQogICAgJCgnb3Blbi1ib2R5JykuaW5uZXJIVE1MID0gb3Blbi5sZW5ndGggPyBvcGVuLm1hcChmdW5jdGlvbiAodCkgeyByZXR1cm4gdHJhZGVDYXJkKHQsIHRydWUsIHBpY2tGb3IodCkpOyB9KS5qb2luKCcnKSA6CiAgICAgICc8cCBjbGFzcz0iZW1wdHkiPk5vIG9wZW4gcGFwZXIgdHJhZGVzLiBFdmVyeSB0cmFkZSBzbyBmYXIgaGFzIGJlZW4gY2xvc2VkLjwvcD4nOwogICAgdmFyIGNsID0gY2xvc2VkLnNsaWNlKCkuc29ydChmdW5jdGlvbiAoYSwgYikgeyByZXR1cm4gKGIuY2xvc2VEYXkgKyBiLmxvZ2dlZCkubG9jYWxlQ29tcGFyZShhLmNsb3NlRGF5ICsgYS5sb2dnZWQpOyB9KTsKICAgIHZhciBjaCA9IGNsLmxlbmd0aCA/IGNsLm1hcChmdW5jdGlvbiAodCkgeyByZXR1cm4gdHJhZGVDYXJkKHQsIGZhbHNlLCBwaWNrRm9yKHQpKTsgfSkuam9pbignJykgOiAnPHAgY2xhc3M9ImVtcHR5Ij5ObyBjbG9zZWQgdHJhZGVzIHlldC48L3A+JzsKICAgIGlmIChuZWFyTWlzcy5sZW5ndGgpIHsKICAgICAgY2ggKz0gJzxkZXRhaWxzPjxzdW1tYXJ5Pk5lYXItbWlzc2VzIGFsc28gdHJhY2tlZCAoJyArIG5lYXJNaXNzLmxlbmd0aCArICcsIG5vdCB0cmFkZWQpPC9zdW1tYXJ5PicgKwogICAgICAgICc8cCBjbGFzcz0ibm90ZSI+U3RvY2tzIHRoYXQganVzdCBtaXNzZWQgYSBydWxlLCBmb2xsb3dlZCBmb3IgY29tcGFyaXNvbiBvbmx5LiBOb3QgaW4gdGhlIHJlc3VsdHMgYWJvdmUuPC9wPjx1bCBjbGFzcz0idGljay1saXN0Ij4nICsKICAgICAgICBuZWFyTWlzcy5tYXAoZnVuY3Rpb24gKHQpIHsKICAgICAgICAgIHZhciBwbCA9IG51bSh0WydQJkwgYXQgbWlkICgkKSddKTsKICAgICAgICAgIHJldHVybiAnPGxpPjxiPicgKyBlc2ModFsnU3ltYm9sJ10pICsgJzwvYj4gJyArIGVzYyh2KHRbJ1NpZGUnXSkpICsgJyAnICsgZXNjKHYodFsnU2hvcnQgc3RyaWtlJ10pKSArICcvJyArIGVzYyh2KHRbJ0xvbmcgc3RyaWtlJ10pKSArCiAgICAgICAgICAgICcsIGVhcm5pbmdzICcgKyBlc2MoZm10RGF0ZSh0WydFYXJuaW5ncyBkYXRlJ10pKSArICcgwrcgJyArIGVzYyh2KHRbJ091dGNvbWUnXSB8fCB0WydTdGF0dXMnXSkpICsKICAgICAgICAgICAgKHBsICE9IG51bGwgPyAnICgnICsgbW9uZXkocGwsIHRydWUpICsgJyBoZWxkIHRvIGV4cGlyeSwgYmVmb3JlIGZlZXMpJyA6ICcnKSArCiAgICAgICAgICAgICh0WydGaWx0ZXIgbm90ZSddID8gJzxicj48c3BhbiBjbGFzcz0ibXV0ZWQgc21hbGwiPk1pc3NlZDogJyArIGVzYyh0WydGaWx0ZXIgbm90ZSddKSArICc8L3NwYW4+JyA6ICcnKSArICc8L2xpPic7CiAgICAgICAgfSkuam9pbignJykgKyAnPC91bD48L2RldGFpbHM+JzsKICAgIH0KICAgICQoJ2Nsb3NlZC1ib2R5JykuaW5uZXJIVE1MID0gY2g7CgogICAgLy8gLS0tLS0gaGlzdG9yeSAtLS0tLQogICAgJCgnaGlzdG9yeS1ib2R5JykuaW5uZXJIVE1MID0gYWxsUGlja3MubGVuZ3RoID8gJzx1bCBjbGFzcz0idGljay1saXN0Ij4nICsgYWxsUGlja3MubWFwKGZ1bmN0aW9uIChwKSB7CiAgICAgIHZhciB0ciA9IHRyRm9yKHApLCBkID0gdXRjU3RhbXAocFsnVGltZSddKTsKICAgICAgdmFyIHJlcyA9IHRyICYmIHRyLmNsb3NlZCA/ICc8c3BhbiBjbGFzcz0iJyArIGNscyh0ci5uZXQpICsgJyI+PGIgc3R5bGU9Im1pbi13aWR0aDowIj4nICsgbW9uZXkodHIubmV0LCB0cnVlKSArICc8L2I+PC9zcGFuPicgOiAnPHNwYW4gY2xhc3M9InBpbGwgb3BlbiI+b3Blbjwvc3Bhbj4nOwogICAgICByZXR1cm4gJzxsaT48Yj4nICsgZXNjKHBbJ1N5bWJvbCddKSArICc8L2I+ICcgKyBlc2MoZCA/IGZtdERhdGUoZXRQYXJ0cyhkKSkgOiB2KHBbJ1RpbWUnXSkpICsgJyDCtyAnICsgZXNjKGxlZ3MocFsnU2lkZSddLCBwWydTaG9ydCddLCBwWydMb25nJ10pKSArICcgwrcgJyArIHJlcyArICc8L2xpPic7CiAgICB9KS5qb2luKCcnKSArICc8L3VsPjxwIGNsYXNzPSJub3RlIj4nICsgYWxsUGlja3MubGVuZ3RoICsgJyBwaWNrJyArIChhbGxQaWNrcy5sZW5ndGggPT09IDEgPyAnJyA6ICdzJykgKyAnIGZyb20gJyArIHNjYW4ubGVuZ3RoLnRvTG9jYWxlU3RyaW5nKCdlbi1VUycpICsgJyBzdG9jayBjaGVja3Mgc2luY2UgJyArIGVzYyhzdGFtcGVkLmxlbmd0aCA/IGZtdERhdGUoZXRQYXJ0cyhzdGFtcGVkLnJlZHVjZShmdW5jdGlvbiAobSwgeCkgeyByZXR1cm4geC5kIDwgbSA/IHguZCA6IG07IH0sIHN0YW1wZWRbMF0uZCkpKSA6ICfigJMnKSArICcuPC9wPicKICAgICAgOiAnPHAgY2xhc3M9ImVtcHR5Ij5ObyBwaWNrcyB5ZXQuPC9wPic7CgogICAgdmFyIHUgPSAkKCd1cGRhdGVkJyk7IHUuY2xhc3NOYW1lID0gJ3VwZGF0ZWQnOwogICAgdS50ZXh0Q29udGVudCA9ICdVcGRhdGVkICcgKyBmbXRFVChuZXcgRGF0ZSgpLCBmYWxzZSkgKyAnIMK3IGxhc3Qgc2NhbiAnICsgKGxhc3RUaW1lID8gZm10RVQobGFzdFRpbWUpIDogJ25vbmUgeWV0Jyk7CiAgfQoKICBmdW5jdGlvbiBzaG93RXJyb3IoKSB7CiAgICB2YXIgdSA9ICQoJ3VwZGF0ZWQnKTsgdS5jbGFzc05hbWUgPSAndXBkYXRlZCBlcnInOwogICAgdS50ZXh0Q29udGVudCA9ICJDb3VsZG4ndCByZWFjaCB0aGUgc2hlZXQganVzdCBub3cuIFB1bGwgdG8gcmVmcmVzaCBpbiBhIG1pbnV0ZS4iOwogICAgWydzY2FuLWJvZHknLCAncGlja3MtYm9keScsICdzdGF0cy1ib2R5JywgJ29wZW4tYm9keScsICdjbG9zZWQtYm9keScsICdoaXN0b3J5LWJvZHknXS5mb3JFYWNoKGZ1bmN0aW9uIChpZCkgewogICAgICB2YXIgZWwgPSAkKGlkKTsgaWYgKC9Mb2FkaW5nLy50ZXN0KGVsLnRleHRDb250ZW50KSkgZWwuaW5uZXJIVE1MID0gJzxwIGNsYXNzPSJlbXB0eSI+RGF0YSB1bmF2YWlsYWJsZSByaWdodCBub3cuPC9wPic7CiAgICB9KTsKICB9CgogIGZ1bmN0aW9uIGxvYWQoKSB7CiAgICByZXR1cm4gUHJvbWlzZS5hbGwoW2xvYWRUYWIoVEFCUy5zY2FuKSwgbG9hZFRhYihUQUJTLnRyYWNrZWQpXSkKICAgICAgLnRoZW4oZnVuY3Rpb24gKHIpIHsgcmVuZGVyKHJbMF0sIHJbMV0pOyB9KQogICAgICAuY2F0Y2goZnVuY3Rpb24gKGUpIHsgaWYgKHdpbmRvdy5jb25zb2xlKSBjb25zb2xlLndhcm4oZSk7IHNob3dFcnJvcigpOyB9KTsKICB9CgogIC8vIEV4cG9zZWQgZm9yIHRlc3RzIG9ubHkuCiAgd2luZG93Ll9fc2Nhbm5lciA9IHsgcGFyc2VDU1Y6IHBhcnNlQ1NWLCB0b09iamVjdHM6IHRvT2JqZWN0cywgYnVpbGRUcmFkZTogYnVpbGRUcmFkZSwgcmVhc29uTGFiZWw6IHJlYXNvbkxhYmVsLCByZW5kZXI6IHJlbmRlciwgbnVtOiBudW0gfTsKCiAgaWYgKCF3aW5kb3cuX19TQ0FOTkVSX05PX0FVVE9MT0FEKSB7CiAgICBsb2FkKCk7CiAgICBzZXRJbnRlcnZhbChmdW5jdGlvbiAoKSB7IGlmICghZG9jdW1lbnQuaGlkZGVuKSBsb2FkKCk7IH0sIFJFRlJFU0hfTVMpOwogICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigndmlzaWJpbGl0eWNoYW5nZScsIGZ1bmN0aW9uICgpIHsgaWYgKCFkb2N1bWVudC5oaWRkZW4pIGxvYWQoKTsgfSk7CiAgfQp9KSgpOwo=
+/* Earnings IV-Crush Scanner dashboard.
+   Reads the scanner's Google Sheet live (view-only link, public CSV export).
+   No keys, no tracking. Paper trading results. Analysis only, not advice. */
+(function () {
+  'use strict';
+
+  var SHEET_ID = '1vR2L7P3qNfFPkLSt25euHVW2RNE-U1KOAPh3xTA4Pb8';
+  var TABS = { scan: { name: 'Sheet1', gid: '0' }, tracked: { name: 'Tracked', gid: '12103754' } };
+  var TZ = 'America/New_York';
+  var COMMISSION = 0.50;      // $ per contract, per leg, per side (stock/ETF options)
+  var COMMISSION_SPX = 1.07;  // SPX / SPXW
+  var REFRESH_MS = 10 * 60 * 1000;
+
+  // ---------- helpers ----------
+  function $(id) { return document.getElementById(id); }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function num(v) {
+    if (v == null) return null;
+    var s = String(v).replace(/[$,\s]/g, '').replace(/x$/i, '');
+    if (s === '' || s === '-') return null;
+    var n = Number(s.replace(/%$/, ''));
+    return isFinite(n) ? n : null;
+  }
+  function money(n, signed) {
+    if (n == null || !isFinite(n)) return '–';
+    var a = Math.abs(n);
+    var s = a.toLocaleString('en-US', { minimumFractionDigits: a % 1 ? 2 : 0, maximumFractionDigits: 2 });
+    var sign = n < 0 ? '−' : (signed && n > 0 ? '+' : '');
+    return sign + '$' + s;
+  }
+  function cls(n) { return n > 0 ? 'pos' : n < 0 ? 'neg' : ''; }
+  function v(x) { return x == null || String(x).trim() === '' ? '–' : String(x).trim(); }
+
+  // "2026-10-29 15:03" in the sheet is UTC (the scan runs at 11 AM ET = 15:00 UTC).
+  function utcStamp(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})/.exec(String(s || '').trim());
+    if (!m) return null;
+    return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]));
+  }
+  function etParts(d) {
+    var f = new Intl.DateTimeFormat('en-US', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(d);
+    var o = {}; f.forEach(function (p) { o[p.type] = p.value; });
+    return o.year + '-' + o.month + '-' + o.day;
+  }
+  function fmtET(d, withDay) {
+    return d.toLocaleString('en-US', withDay === false ?
+      { timeZone: TZ, hour: 'numeric', minute: '2-digit' } :
+      { timeZone: TZ, weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET';
+  }
+  // Plain date "2026-10-28" -> "Wed, Oct 28"
+  function fmtDate(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(s || '').trim());
+    if (!m) return v(s);
+    var d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], 12));
+    return d.toLocaleDateString('en-US', { timeZone: 'UTC', weekday: 'short', month: 'short', day: 'numeric' });
+  }
+  function todayET() { return etParts(new Date()); }
+
+  // ---------- CSV ----------
+  function parseCSV(text) {
+    var rows = [], row = [], f = '', q = false, i = 0, c;
+    text = String(text).replace(/^\uFEFF/, '');
+    for (; i < text.length; i++) {
+      c = text[i];
+      if (q) {
+        if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; }
+        else f += c;
+      } else if (c === '"') q = true;
+      else if (c === ',') { row.push(f); f = ''; }
+      else if (c === '\n') { row.push(f); rows.push(row); row = []; f = ''; }
+      else if (c !== '\r') f += c;
+    }
+    if (f !== '' || row.length) { row.push(f); rows.push(row); }
+    return rows;
+  }
+  function toObjects(rows) {
+    if (!rows.length) return [];
+    var head = rows[0].map(function (h) { return h.trim(); });
+    return rows.slice(1).filter(function (r) { return r.some(function (x) { return String(x).trim() !== ''; }); })
+      .map(function (r) { var o = {}; head.forEach(function (h, j) { o[h] = r[j] == null ? '' : r[j]; }); return o; });
+  }
+  function fetchText(url) {
+    return fetch(url, { cache: 'no-store', credentials: 'omit', referrerPolicy: 'no-referrer' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.text();
+    }).then(function (t) {
+      if (/^\s*<(!doctype|html)/i.test(t)) throw new Error('not CSV');
+      return t;
+    });
+  }
+  function loadTab(tab) {
+    var base = 'https://docs.google.com/spreadsheets/d/' + SHEET_ID;
+    var exportUrl = base + '/export?format=csv&gid=' + tab.gid;
+    var gvizUrl = base + '/gviz/tq?tqx=out:csv&headers=1&sheet=' + encodeURIComponent(tab.name);
+    return fetchText(exportUrl).catch(function () { return fetchText(gvizUrl); })
+      .then(function (t) { return toObjects(parseCSV(t)); });
+  }
+
+  // ---------- model ----------
+  function feeFor(t) {
+    var m = /commissions open \+ close \$([\d,.]+)/i.exec(t['Exit note'] || '');
+    if (m) return num(m[1]);
+    var c = num(t['Contracts']);
+    if (c == null) return null;
+    var rate = /^SPXW?$/i.test(String(t['Symbol']).trim()) ? COMMISSION_SPX : COMMISSION;
+    return Math.round(rate * 2 * c * 2 * 100) / 100; // 2 legs x contracts, open + close
+  }
+  function buildTrade(t) {
+    var gross = num(t['P&L at 9:35 exit ($)']), basis = '9:35 AM exit';
+    if (gross == null && /SETTLED/i.test(t['Status']) && num(t['P&L at mid ($)']) != null) {
+      gross = num(t['P&L at mid ($)']); basis = 'held to expiry (no 9:35 exit logged)';
+    }
+    var fee = feeFor(t);
+    var net = gross == null ? null : Math.round((gross - (fee || 0)) * 100) / 100;
+    var closeDay = String(t['Exit time'] || t['Close day'] || t['Earnings date'] || '').slice(0, 10);
+    return { row: t, sym: String(t['Symbol']).trim(), gross: gross, fee: fee, net: net, basis: basis,
+      closed: gross != null, closeDay: closeDay, logged: String(t['Logged']).trim() };
+  }
+  function spreadName(side, structure) {
+    var s = String(structure || '').trim();
+    if (s) return s.charAt(0).toUpperCase() + s.slice(1);
+    return side ? side.charAt(0).toUpperCase() + side.slice(1) + ' credit spread' : 'Credit spread';
+  }
+  function legs(side, sh, lo) {
+    if (!sh && !lo) return '–';
+    var s = String(side || '').trim();
+    return 'Sell ' + v(sh) + ' ' + s + ' / buy ' + v(lo) + ' ' + s;
+  }
+  function reasonLabel(r) {
+    r = String(r || '');
+    if (/^low volume/i.test(r)) return 'Options volume too low';
+    if (/price floor/i.test(r)) return 'Stock under $20';
+    if (/normal days/i.test(r)) return 'Earnings move under 3 normal days';
+    if (/no expirations/i.test(r)) return 'No option expiry after the report';
+    if (/^gapper/i.test(r)) return 'Gapper (worst move too big)';
+    if (/last year/i.test(r)) return "Implied move below last year's";
+    if (/avg past move/i.test(r)) return 'Implied move below the average';
+    if (/term structure/i.test(r)) return 'Term structure flat';
+    if (/usable past reports|historical earnings/i.test(r)) return 'Not enough earnings history';
+    if (/bump|distance-rule/i.test(r)) return 'No strike far enough';
+    if (/credit/i.test(r)) return 'Credit too small';
+    if (/stock volume|shares/i.test(r)) return 'Stock volume too low';
+    if (/chain|greeks/i.test(r)) return 'No option data';
+    var s = r.split(':')[0].replace(/[-+]?\$?\d[\d,.]*%?x?/g, '').replace(/\s+/g, ' ').trim();
+    return s ? s.slice(0, 48) : 'Other';
+  }
+
+  // ---------- render ----------
+  function fact(label, value) {
+    return '<div><dt>' + esc(label) + '</dt><dd>' + esc(value) + '</dd></div>';
+  }
+  function pickCard(p, tr, tag) {
+    var side = p['Side'];
+    var html = '<article class="trade"><div class="head"><div><span class="sym">' + esc(p['Symbol']) + '</span> ' +
+      '<span class="what">' + esc(spreadName(side, p['Structure'])) + '</span></div>' + (tag || '') + '</div>';
+    html += '<p class="note" style="margin-top:4px">' + esc(legs(side, p['Short'], p['Long'])) +
+      (p['Expiration'] ? ' · expires ' + esc(fmtDate(p['Expiration'])) : '') + '</p>';
+    html += '<dl class="facts">' +
+      fact('Earnings', tr ? fmtDate(tr.row['Earnings date']) + (tr.row['Report timing'] ? ' (' + tr.row['Report timing'] + ')' : '') : '–') +
+      fact('Credit (mid)', p['Credit (mid)'] ? '$' + v(p['Credit (mid)']) : '–') +
+      fact('Credit / width', v(p['Credit/width'])) +
+      fact('Contracts', v(p['Contracts ($1k max loss)'])) +
+      fact('Max loss', p['Max loss $'] ? money(num(p['Max loss $'])) : '–') +
+      fact('Implied move', v(p['Implied earn move'])) +
+      fact('Avg past move', v(p['Avg past move'])) +
+      fact('Implied ÷ avg', v(p['Implied/hist'])) +
+      fact('IV ÷ HV', v(p['IV/HV'])) +
+      fact('Implied ÷ last yr', v(p['Implied / last yr'])) +
+      fact('Natural credit', p['Natural credit'] ? '$' + v(p['Natural credit']) : '–') +
+      fact('Strike from', v(p['Strike source'])) +
+      '</dl>';
+    var when = utcStamp(p['Time']);
+    html += '<p class="note">Picked ' + esc(when ? fmtET(when) : v(p['Time'])) + (p['Rank'] ? ' · rank #' + esc(p['Rank']) : '') + '</p>';
+    return html + '</article>';
+  }
+  function tradeCard(t, open, pick) {
+    var r = t.row, pill;
+    if (open) pill = '<span class="pill open">' + esc(v(r['Status']).toLowerCase() === 'open' ? 'Open' : v(r['Status'])) + '</span>';
+    else pill = '<span class="pill ' + (t.net > 0 ? 'win' : t.net < 0 ? 'loss' : '') + '">' + (t.net > 0 ? 'Win' : t.net < 0 ? 'Loss' : 'Flat') + '</span>';
+    var html = '<article class="trade"><div class="head"><div><span class="sym">' + esc(t.sym) + '</span> <span class="what">' +
+      esc(spreadName(r['Side'], '')) + '</span></div>' + pill + '</div>';
+    html += '<p class="note" style="margin-top:4px">' + esc(legs(r['Side'], r['Short strike'], r['Long strike'])) +
+      ' · ' + esc(v(r['Contracts'])) + ' contract' + (num(r['Contracts']) === 1 ? '' : 's') + ' · credit $' + esc(v(r['Credit (mid)'])) + '</p>';
+    if (!open) {
+      html += '<p class="big ' + cls(t.net) + '" style="margin:8px 0 0">' + money(t.net, true) + '</p>' +
+        '<p class="note" style="margin-top:0">after ' + money(t.fee) + ' commission · ' + money(t.gross, true) + ' before</p>';
+    }
+    html += '<dl class="facts">' +
+      fact('Earnings', fmtDate(r['Earnings date']) + (r['Report timing'] ? ' (' + r['Report timing'] + ')' : '')) +
+      fact('Entry price', r['Entry spot'] ? '$' + v(r['Entry spot']) : '–') +
+      fact('Implied move', v(r['Implied move'])) +
+      fact('Move after', v(r['Move after earnings']));
+    if (!open) {
+      html += fact('Exit (9:35)', r['Exit time'] ? fmtDate(r['Exit time']) : '–') +
+        fact('Price at exit', r['Exit spot (9:35)'] ? '$' + v(r['Exit spot (9:35)']) : '–') +
+        fact('Short strike hit', v(r['Short breached at 9:35'])) +
+        fact('If held to expiry', r['P&L at mid ($)'] ? money(num(r['P&L at mid ($)']), true) + ' before fees' : '–');
+    } else {
+      html += fact('Closes', r['Close day'] ? fmtDate(r['Close day']) : 'morning after report') +
+        fact('Expires', fmtDate(r['Expiration']));
+    }
+    html += '</dl>';
+    if (!open && t.basis !== '9:35 AM exit') html += '<p class="note">P&amp;L basis: ' + esc(t.basis) + '.</p>';
+    var stc = pick ? String(pick['Structure'] || '').trim() : '';
+    if (stc && !/^(put|call) credit spread$/i.test(stc)) html += '<p class="note">The scan listed this pick as: ' + esc(stc) + '. The Tracked tab follows the ' + esc(v(r['Side'])) + ' spread shown here.</p>';
+    return html + '</article>';
+  }
+  function equityChart(closed) {
+    var pts = closed.slice().sort(function (a, b) { return (a.closeDay + a.logged).localeCompare(b.closeDay + b.logged); });
+    var cum = 0, ys = [0], labels = ['Start'];
+    pts.forEach(function (t) { cum += t.net; ys.push(Math.round(cum * 100) / 100); labels.push(t.sym); });
+    var W = 420, H = 210, L = 58, R = 12, T = 14, B = 30;
+    var lo = Math.min.apply(null, ys.concat(0)), hi = Math.max.apply(null, ys.concat(0));
+    var min = lo, max = hi;
+    if (max === min) { max += 1; min -= 1; }
+    var pad = (max - min) * 0.1; max += pad; min -= pad;
+    var grid = [hi, 0, lo].filter(function (g, i, arr) { return arr.indexOf(g) === i; });
+    function X(i) { return L + (ys.length === 1 ? 0 : i * (W - L - R) / (ys.length - 1)); }
+    function Y(y) { return T + (max - y) * (H - T - B) / (max - min); }
+    var d = ys.map(function (y, i) { return (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(y).toFixed(1); }).join(' ');
+    var last = ys[ys.length - 1], color = last >= 0 ? '#047857' : '#b91c1c';
+    var svg = '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Running total of closed paper-trade P&L after commission, ending at ' + esc(money(last, true)) + '">';
+    grid.forEach(function (g) {
+      svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + Y(g).toFixed(1) + '" y2="' + Y(g).toFixed(1) + '" stroke="' + (g === 0 ? '#94a3b8' : '#e2e8f0') + '" stroke-dasharray="' + (g === 0 ? '0' : '4 4') + '"/>' +
+        '<text x="' + (L - 6) + '" y="' + (Y(g) + 4).toFixed(1) + '" text-anchor="end">' + esc(money(Math.round(g))) + '</text>';
+    });
+    svg += '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>';
+    ys.forEach(function (y, i) {
+      svg += '<circle cx="' + X(i).toFixed(1) + '" cy="' + Y(y).toFixed(1) + '" r="4.5" fill="#fff" stroke="' + color + '" stroke-width="2.5"/>';
+      svg += '<text x="' + X(i).toFixed(1) + '" y="' + (H - 12) + '" text-anchor="middle">' + esc(labels[i]) + '</text>';
+    });
+    return svg + '</svg>';
+  }
+
+  function render(scan, tracked) {
+    var today = todayET();
+    // Tracked trades
+    var trades = tracked.filter(function (t) { return /^TRADE$/i.test(String(t['Signal']).trim()); }).map(buildTrade);
+    var nearMiss = tracked.filter(function (t) { return !/^TRADE$/i.test(String(t['Signal']).trim()) && String(t['Symbol']).trim(); });
+    var closed = trades.filter(function (t) { return t.closed; });
+    var open = trades.filter(function (t) { return !t.closed; });
+    function pickFor(t) {
+      return scan.filter(function (p) { return String(p['Symbol']).trim() === t.sym && String(p['Time']).trim() === t.logged && /^TRADE$/i.test(String(p['Status']).trim()); })[0] || null;
+    }
+    function trFor(p) {
+      var sym = String(p['Symbol']).trim(), tm = String(p['Time']).trim();
+      var m = trades.filter(function (t) { return t.sym === sym && t.logged === tm; })[0];
+      return m || trades.filter(function (t) { return t.sym === sym && t.logged.slice(0, 10) === tm.slice(0, 10); })[0] || null;
+    }
+
+    // ----- latest scan -----
+    var stamped = scan.map(function (r) { var d = utcStamp(r['Time']); return d ? { r: r, d: d, day: etParts(d) } : null; }).filter(Boolean);
+    var lastDay = stamped.reduce(function (m, x) { return x.day > m ? x.day : m; }, '');
+    var latest = stamped.filter(function (x) { return x.day === lastDay; });
+    var lastTime = latest.reduce(function (m, x) { return !m || x.d > m ? x.d : m; }, null);
+    var sb = '';
+    if (!latest.length) {
+      sb = '<p class="empty">No scans in the sheet yet.</p>';
+    } else {
+      var cnt = { TRADE: 0, CANDIDATE: 0, SKIP: 0 };
+      latest.forEach(function (x) { var s = String(x.r['Status']).trim().toUpperCase(); cnt[s] = (cnt[s] || 0) + 1; });
+      sb += '<p><strong>' + esc(fmtET(lastTime)) + '</strong>' + (lastDay === today ? ' · today' : '') + '</p>';
+      sb += '<div class="kpis"><div class="kpi"><div class="v">' + latest.length + '</div><div class="l">Stocks checked</div></div>' +
+        '<div class="kpi"><div class="v">' + cnt.TRADE + '</div><div class="l">Trades</div></div>' +
+        '<div class="kpi"><div class="v">' + (cnt.CANDIDATE || 0) + '</div><div class="l">Candidates</div></div>' +
+        '<div class="kpi"><div class="v">' + cnt.SKIP + '</div><div class="l">Skipped</div></div></div>';
+      var reasons = {};
+      latest.forEach(function (x) { if (/^SKIP$/i.test(String(x.r['Status']).trim())) { var l = reasonLabel(x.r['Reason / rank']); reasons[l] = (reasons[l] || 0) + 1; } });
+      var rl = Object.keys(reasons).sort(function (a, b) { return reasons[b] - reasons[a]; });
+      if (rl.length) {
+        var top = reasons[rl[0]];
+        sb += '<p class="small muted" style="margin-bottom:6px">Why stocks were skipped</p><ul class="bars">' + rl.slice(0, 6).map(function (k) {
+          return '<li><span>' + esc(k) + '</span><b>' + reasons[k] + '</b><span class="bar"><span style="width:' + Math.max(4, Math.round(reasons[k] / top * 100)) + '%"></span></span></li>';
+        }).join('') + '</ul>';
+      }
+      var order = { TRADE: 0, CANDIDATE: 1 };
+      var list = latest.slice().sort(function (a, b) {
+        var sa = order[String(a.r['Status']).trim().toUpperCase()], sbb = order[String(b.r['Status']).trim().toUpperCase()];
+        return (sa == null ? 2 : sa) - (sbb == null ? 2 : sbb) || String(a.r['Symbol']).localeCompare(String(b.r['Symbol']));
+      });
+      sb += '<details><summary>See all ' + latest.length + ' stocks</summary><ul class="tick-list">' + list.map(function (x) {
+        return '<li><b>' + esc(x.r['Symbol']) + '</b> <span class="pill' + (/TRADE/i.test(x.r['Status']) ? ' win' : '') + '">' + esc(v(x.r['Status'])) + '</span> <span class="muted">' + esc(v(x.r['Reason / rank'])) + '</span></li>';
+      }).join('') + '</ul></details>';
+    }
+    $('scan-body').innerHTML = sb;
+
+    // ----- picks -----
+    var allPicks = scan.filter(function (r) { return /^(TRADE|CANDIDATE)$/i.test(String(r['Status']).trim()); })
+      .sort(function (a, b) { return String(b['Time']).localeCompare(String(a['Time'])); });
+    var current = allPicks.filter(function (p) {
+      var d = utcStamp(p['Time']), tr = trFor(p);
+      if (tr) return !tr.closed;
+      return d && etParts(d) === lastDay;
+    });
+    $('picks-body').innerHTML = current.length ? current.map(function (p) {
+      var tr = trFor(p), st = String(p['Status']).trim().toUpperCase();
+      return pickCard(p, tr, '<span class="pill' + (st === 'TRADE' ? ' open' : '') + '">' + (st === 'TRADE' ? 'Trade' : 'Candidate') + '</span>');
+    }).join('') : '<p class="empty">No open picks right now.' + (latest.length ? ' The last scan (' + esc(fmtDate(lastDay)) + ') found no trade.' : '') + ' New picks show up here after the 11 AM ET scan.</p>';
+
+    // ----- stats -----
+    var st = '';
+    if (!closed.length) {
+      st = '<p class="empty">No closed paper trades yet. Results appear after the first trade closes.</p>';
+    } else {
+      var wins = closed.filter(function (t) { return t.net > 0; }).length;
+      var total = closed.reduce(function (s, t) { return s + t.net; }, 0);
+      var fees = closed.reduce(function (s, t) { return s + (t.fee || 0); }, 0);
+      var worst = closed.reduce(function (m, t) { return t.net < m.net ? t : m; }, closed[0]);
+      var best = closed.reduce(function (m, t) { return t.net > m.net ? t : m; }, closed[0]);
+      st += '<div class="kpis k6">' +
+        '<div class="kpi"><div class="v">' + closed.length + '</div><div class="l">Closed trades</div></div>' +
+        '<div class="kpi"><div class="v">' + Math.round(wins / closed.length * 100) + '%</div><div class="l">Win rate (' + wins + ' of ' + closed.length + ')</div></div>' +
+        '<div class="kpi"><div class="v ' + cls(total) + '">' + money(total, true) + '</div><div class="l">Total P&amp;L</div></div>' +
+        '<div class="kpi"><div class="v ' + cls(total) + '">' + money(Math.round(total / closed.length * 100) / 100, true) + '</div><div class="l">Avg per trade</div></div>' +
+        '<div class="kpi"><div class="v ' + cls(best.net) + '">' + money(best.net, true) + '</div><div class="l">Best trade (' + esc(best.sym) + ')</div></div>' +
+        '<div class="kpi"><div class="v ' + cls(worst.net) + '">' + money(worst.net, true) + '</div><div class="l">' + (worst.net < 0 ? 'Biggest loss' : 'Smallest win') + ' (' + esc(worst.sym) + ')</div></div>' +
+        '</div>';
+      st += equityChart(closed);
+      st += '<p class="note">Running total after commission. Commissions so far: ' + money(fees) + '.' +
+        (open.length ? ' ' + open.length + ' trade' + (open.length === 1 ? ' is' : 's are') + ' still open and not counted.' : '') + '</p>';
+    }
+    $('stats-body').innerHTML = st;
+
+    // ----- open / closed -----
+    $('open-body').innerHTML = open.length ? open.map(function (t) { return tradeCard(t, true, pickFor(t)); }).join('') :
+      '<p class="empty">No open paper trades. Every trade so far has been closed.</p>';
+    var cl = closed.slice().sort(function (a, b) { return (b.closeDay + b.logged).localeCompare(a.closeDay + a.logged); });
+    var ch = cl.length ? cl.map(function (t) { return tradeCard(t, false, pickFor(t)); }).join('') : '<p class="empty">No closed trades yet.</p>';
+    if (nearMiss.length) {
+      ch += '<details><summary>Near-misses also tracked (' + nearMiss.length + ', not traded)</summary>' +
+        '<p class="note">Stocks that just missed a rule, followed for comparison only. Not in the results above.</p><ul class="tick-list">' +
+        nearMiss.map(function (t) {
+          var pl = num(t['P&L at mid ($)']);
+          return '<li><b>' + esc(t['Symbol']) + '</b> ' + esc(v(t['Side'])) + ' ' + esc(v(t['Short strike'])) + '/' + esc(v(t['Long strike'])) +
+            ', earnings ' + esc(fmtDate(t['Earnings date'])) + ' · ' + esc(v(t['Outcome'] || t['Status'])) +
+            (pl != null ? ' (' + money(pl, true) + ' held to expiry, before fees)' : '') +
+            (t['Filter note'] ? '<br><span class="muted small">Missed: ' + esc(t['Filter note']) + '</span>' : '') + '</li>';
+        }).join('') + '</ul></details>';
+    }
+    $('closed-body').innerHTML = ch;
+
+    // ----- history -----
+    $('history-body').innerHTML = allPicks.length ? '<ul class="tick-list">' + allPicks.map(function (p) {
+      var tr = trFor(p), d = utcStamp(p['Time']);
+      var res = tr && tr.closed ? '<span class="' + cls(tr.net) + '"><b style="min-width:0">' + money(tr.net, true) + '</b></span>' : '<span class="pill open">open</span>';
+      return '<li><b>' + esc(p['Symbol']) + '</b> ' + esc(d ? fmtDate(etParts(d)) : v(p['Time'])) + ' · ' + esc(legs(p['Side'], p['Short'], p['Long'])) + ' · ' + res + '</li>';
+    }).join('') + '</ul><p class="note">' + allPicks.length + ' pick' + (allPicks.length === 1 ? '' : 's') + ' from ' + scan.length.toLocaleString('en-US') + ' stock checks since ' + esc(stamped.length ? fmtDate(etParts(stamped.reduce(function (m, x) { return x.d < m ? x.d : m; }, stamped[0].d))) : '–') + '.</p>'
+      : '<p class="empty">No picks yet.</p>';
+
+    var u = $('updated'); u.className = 'updated';
+    u.textContent = 'Updated ' + fmtET(new Date(), false) + ' · last scan ' + (lastTime ? fmtET(lastTime) : 'none yet');
+  }
+
+  function showError() {
+    var u = $('updated'); u.className = 'updated err';
+    u.textContent = "Couldn't reach the sheet just now. Pull to refresh in a minute.";
+    ['scan-body', 'picks-body', 'stats-body', 'open-body', 'closed-body', 'history-body'].forEach(function (id) {
+      var el = $(id); if (/Loading/.test(el.textContent)) el.innerHTML = '<p class="empty">Data unavailable right now.</p>';
+    });
+  }
+
+  function load() {
+    return Promise.all([loadTab(TABS.scan), loadTab(TABS.tracked)])
+      .then(function (r) { render(r[0], r[1]); })
+      .catch(function (e) { if (window.console) console.warn(e); showError(); });
+  }
+
+  // Exposed for tests only.
+  window.__scanner = { parseCSV: parseCSV, toObjects: toObjects, buildTrade: buildTrade, reasonLabel: reasonLabel, render: render, num: num };
+
+  if (!window.__SCANNER_NO_AUTOLOAD) {
+    load();
+    setInterval(function () { if (!document.hidden) load(); }, REFRESH_MS);
+    document.addEventListener('visibilitychange', function () { if (!document.hidden) load(); });
+  }
+})();
