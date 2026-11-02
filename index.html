@@ -17,6 +17,7 @@
     <h1>IV-Crush Scanner</h1>
     <p class="sub">Credit spreads sold before earnings, closed the next morning. Live from the scanner's own sheet.</p>
     <p class="updated" id="updated" aria-live="polite">Loading the latest data…</p>
+    <p class="jump"><a href="#backtest">See the backtest ↓</a></p>
   </div>
 </header>
 
@@ -51,6 +52,15 @@
     <div class="body" id="history-body"><p class="muted">Loading…</p></div>
   </section>
 
+  <section class="card" id="backtest" aria-labelledby="backtest-h">
+    <h2 id="backtest-h">Backtest</h2>
+    <div class="body">
+      <div id="bt-live"><p class="muted">Loading the live record…</p></div>
+      <div id="bt-hist"><p class="muted">Loading the historical test…</p></div>
+      <p class="small"><strong>Analysis only, not advice.</strong> Past results, real or tested, don't promise future ones.</p>
+    </div>
+  </section>
+
   <section class="card how" id="how" aria-labelledby="how-h">
     <h2 id="how-h">How it works</h2>
     <div class="body">
@@ -83,5 +93,6 @@
   </div>
 </footer>
 <script src="app.js"></script>
+<script src="backtest.js"></script>
 </body>
 </html>

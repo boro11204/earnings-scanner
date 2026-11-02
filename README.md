@@ -11,3 +11,7 @@ A phone-first page that shows the earnings scanner's latest scan, current picks,
 Files: `index.html`, `app.js`, `styles.css`. Tests: `node --test test/*.test.js`.
 
 Paper trading results. Analysis only, not advice.
+
+## Backtest
+
+The **Backtest** section (`backtest.js`) shows (1) the scanner's live paper record, read from the sheet, and (2) a historical test of the scanner's own rules on real end-of-day option quotes, from `backtest/backtest.json`. See `backtest/README.md` for the data, the limits and how to rerun it.
