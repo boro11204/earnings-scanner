@@ -1,0 +1,1381 @@
+{
+ "generated_utc": "2026-11-02 21:05",
+ "range": {
+  "start": "2023-02-06",
+  "end": "2026-10-02",
+  "searched_from": "2021-06-01",
+  "searched_to": "2026-10-28"
+ },
+ "universe": "193 large, liquid optionable US stocks (backtest/events.csv)",
+ "reports_checked": 3986,
+ "passed_no_option_rules": 851,
+ "scan_days": 431,
+ "missing_chain": 254,
+ "no_exit_quote": 59,
+ "entry_shifted": 1,
+ "exit_shifted": 5,
+ "no_exit_breached": 6,
+ "priced_breached": 1,
+ "no_exit_trades": [
+  {
+   "sym": "TXN",
+   "entry": "2021-07-19",
+   "exit": "2021-07-22",
+   "side": "put",
+   "short": 175.0,
+   "long": 172.5,
+   "exit_close": 183.91000366210938
+  },
+  {
+   "sym": "SBUX",
+   "entry": "2021-10-27",
+   "exit": "2021-10-29",
+   "side": "put",
+   "short": 107.0,
+   "long": 104.0,
+   "exit_close": 106.06999969482422
+  },
+  {
+   "sym": "ETSY",
+   "entry": "2021-11-01",
+   "exit": "2021-11-04",
+   "side": "put",
+   "short": 205.0,
+   "long": 200.0,
+   "exit_close": 271.2699890136719
+  },
+  {
+   "sym": "BBY",
+   "entry": "2021-11-22",
+   "exit": "2021-11-23",
+   "side": "put",
+   "short": 124.0,
+   "long": 121.0,
+   "exit_close": 121.01000213623047
+  },
+  {
+   "sym": "AMGN",
+   "entry": "2022-02-04",
+   "exit": "2022-02-08",
+   "side": "put",
+   "short": 210.0,
+   "long": 205.0,
+   "exit_close": 241.00999450683594
+  },
+  {
+   "sym": "CSCO",
+   "entry": "2022-02-14",
+   "exit": "2022-02-17",
+   "side": "call",
+   "short": 57.5,
+   "long": 58.5,
+   "exit_close": 55.77000045776367
+  },
+  {
+   "sym": "IBM",
+   "entry": "2022-04-18",
+   "exit": "2022-04-20",
+   "side": "put",
+   "short": 116.0,
+   "long": 114.0,
+   "exit_close": 138.32000732421875
+  },
+  {
+   "sym": "TMUS",
+   "entry": "2022-07-25",
+   "exit": "2022-07-27",
+   "side": "put",
+   "short": 124.0,
+   "long": 121.0,
+   "exit_close": 140.91000366210938
+  },
+  {
+   "sym": "TTWO",
+   "entry": "2022-08-05",
+   "exit": "2022-08-09",
+   "side": "call",
+   "short": 140.0,
+   "long": 145.0,
+   "exit_close": 120.76000213623047
+  },
+  {
+   "sym": "UPS",
+   "entry": "2022-10-24",
+   "exit": "2022-10-25",
+   "side": "call",
+   "short": 187.5,
+   "long": 192.5,
+   "exit_close": 167.0
+  },
+  {
+   "sym": "WFC",
+   "entry": "2023-01-11",
+   "exit": "2023-01-13",
+   "side": "put",
+   "short": 39.5,
+   "long": 38.5,
+   "exit_close": 44.220001220703125
+  },
+  {
+   "sym": "TTWO",
+   "entry": "2023-02-03",
+   "exit": "2023-02-07",
+   "side": "call",
+   "short": 123.0,
+   "long": 125.0,
+   "exit_close": 113.8499984741211
+  },
+  {
+   "sym": "ENPH",
+   "entry": "2023-02-06",
+   "exit": "2023-02-08",
+   "side": "call",
+   "short": 270.0,
+   "long": 275.0,
+   "exit_close": 218.8699951171875
+  },
+  {
+   "sym": "CRM",
+   "entry": "2023-02-27",
+   "exit": "2023-03-02",
+   "side": "call",
+   "short": 180.0,
+   "long": 182.5,
+   "exit_close": 186.58999633789062
+  },
+  {
+   "sym": "NKE",
+   "entry": "2023-03-20",
+   "exit": "2023-03-22",
+   "side": "put",
+   "short": 106.0,
+   "long": 103.0,
+   "exit_close": 119.5
+  },
+  {
+   "sym": "TXN",
+   "entry": "2023-04-24",
+   "exit": "2023-04-26",
+   "side": "put",
+   "short": 165.0,
+   "long": 162.5,
+   "exit_close": 164.4600067138672
+  },
+  {
+   "sym": "BBY",
+   "entry": "2023-05-24",
+   "exit": "2023-05-25",
+   "side": "call",
+   "short": 76.0,
+   "long": 78.0,
+   "exit_close": 71.27999877929688
+  },
+  {
+   "sym": "GM",
+   "entry": "2023-07-24",
+   "exit": "2023-07-25",
+   "side": "call",
+   "short": 42.5,
+   "long": 43.0,
+   "exit_close": 37.91999816894531
+  },
+  {
+   "sym": "AAPL",
+   "entry": "2023-08-02",
+   "exit": "2023-08-04",
+   "side": "call",
+   "short": 205.0,
+   "long": 207.5,
+   "exit_close": 181.99000549316406
+  },
+  {
+   "sym": "MDT",
+   "entry": "2023-08-21",
+   "exit": "2023-08-22",
+   "side": "call",
+   "short": 87.0,
+   "long": 88.0,
+   "exit_close": 83.72000122070312
+  },
+  {
+   "sym": "CRM",
+   "entry": "2023-08-28",
+   "exit": "2023-08-31",
+   "side": "put",
+   "short": 190.0,
+   "long": 185.0,
+   "exit_close": 221.4600067138672
+  },
+  {
+   "sym": "PG",
+   "entry": "2023-10-16",
+   "exit": "2023-10-18",
+   "side": "call",
+   "short": 152.5,
+   "long": 155.0,
+   "exit_close": 150.02999877929688
+  },
+  {
+   "sym": "USB",
+   "entry": "2023-10-16",
+   "exit": "2023-10-18",
+   "side": "call",
+   "short": 35.0,
+   "long": 36.0,
+   "exit_close": 33.369998931884766
+  },
+  {
+   "sym": "TXN",
+   "entry": "2023-10-23",
+   "exit": "2023-10-25",
+   "side": "put",
+   "short": 135.0,
+   "long": 132.0,
+   "exit_close": 141.7899932861328
+  },
+  {
+   "sym": "CVS",
+   "entry": "2023-10-30",
+   "exit": "2023-11-01",
+   "side": "put",
+   "short": 63.0,
+   "long": 61.0,
+   "exit_close": 68.7300033569336
+  },
+  {
+   "sym": "TJX",
+   "entry": "2024-02-26",
+   "exit": "2024-02-28",
+   "side": "call",
+   "short": 105.0,
+   "long": 107.0,
+   "exit_close": 101.0999984741211
+  },
+  {
+   "sym": "WFC",
+   "entry": "2024-04-10",
+   "exit": "2024-04-12",
+   "side": "call",
+   "short": 61.0,
+   "long": 63.0,
+   "exit_close": 56.470001220703125
+  },
+  {
+   "sym": "CLF",
+   "entry": "2024-04-19",
+   "exit": "2024-04-23",
+   "side": "put",
+   "short": 18.5,
+   "long": 18.0,
+   "exit_close": 18.549999237060547
+  },
+  {
+   "sym": "GM",
+   "entry": "2024-04-22",
+   "exit": "2024-04-23",
+   "side": "put",
+   "short": 40.0,
+   "long": 39.0,
+   "exit_close": 45.099998474121094
+  },
+  {
+   "sym": "BA",
+   "entry": "2024-04-22",
+   "exit": "2024-04-24",
+   "side": "call",
+   "short": 185.0,
+   "long": 187.5,
+   "exit_close": 164.3300018310547
+  },
+  {
+   "sym": "IBM",
+   "entry": "2024-04-22",
+   "exit": "2024-04-25",
+   "side": "call",
+   "short": 197.5,
+   "long": 200.0,
+   "exit_close": 168.91000366210938
+  },
+  {
+   "sym": "ETSY",
+   "entry": "2024-04-29",
+   "exit": "2024-05-02",
+   "side": "call",
+   "short": 79.0,
+   "long": 81.0,
+   "exit_close": 59.2400016784668
+  },
+  {
+   "sym": "QCOM",
+   "entry": "2024-04-29",
+   "exit": "2024-05-02",
+   "side": "call",
+   "short": 185.0,
+   "long": 190.0,
+   "exit_close": 180.10000610351562
+  },
+  {
+   "sym": "GM",
+   "entry": "2024-07-22",
+   "exit": "2024-07-23",
+   "side": "call",
+   "short": 54.0,
+   "long": 55.0,
+   "exit_close": 46.380001068115234
+  },
+  {
+   "sym": "IBM",
+   "entry": "2024-07-22",
+   "exit": "2024-07-25",
+   "side": "put",
+   "short": 170.0,
+   "long": 165.0,
+   "exit_close": 191.97999572753906
+  },
+  {
+   "sym": "WMT",
+   "entry": "2024-08-14",
+   "exit": "2024-08-15",
+   "side": "put",
+   "short": 63.0,
+   "long": 62.0,
+   "exit_close": 73.18000030517578
+  },
+  {
+   "sym": "PEP",
+   "entry": "2024-10-07",
+   "exit": "2024-10-08",
+   "side": "put",
+   "short": 160.0,
+   "long": 155.0,
+   "exit_close": 170.4199981689453
+  },
+  {
+   "sym": "ISRG",
+   "entry": "2024-10-16",
+   "exit": "2024-10-18",
+   "side": "call",
+   "short": 515.0,
+   "long": 525.0,
+   "exit_close": 521.1500244140625
+  },
+  {
+   "sym": "IBM",
+   "entry": "2024-10-22",
+   "exit": "2024-10-24",
+   "side": "put",
+   "short": 212.5,
+   "long": 205.0,
+   "exit_close": 218.38999938964844
+  },
+  {
+   "sym": "CMG",
+   "entry": "2024-10-28",
+   "exit": "2024-10-30",
+   "side": "put",
+   "short": 53.0,
+   "long": 52.0,
+   "exit_close": 55.72999954223633
+  },
+  {
+   "sym": "PYPL",
+   "entry": "2024-10-25",
+   "exit": "2024-10-29",
+   "side": "call",
+   "short": 92.0,
+   "long": 94.0,
+   "exit_close": 80.27999877929688
+  },
+  {
+   "sym": "ABBV",
+   "entry": "2024-10-29",
+   "exit": "2024-10-30",
+   "side": "put",
+   "short": 175.0,
+   "long": 170.0,
+   "exit_close": 201.5
+  },
+  {
+   "sym": "ABNB",
+   "entry": "2024-11-06",
+   "exit": "2024-11-08",
+   "side": "call",
+   "short": 160.0,
+   "long": 165.0,
+   "exit_close": 134.61000061035156
+  },
+  {
+   "sym": "GE",
+   "entry": "2025-01-22",
+   "exit": "2025-01-23",
+   "side": "call",
+   "short": 202.5,
+   "long": 207.5,
+   "exit_close": 200.8000030517578
+  },
+  {
+   "sym": "UBER",
+   "entry": "2025-02-04",
+   "exit": "2025-02-05",
+   "side": "call",
+   "short": 78.0,
+   "long": 80.0,
+   "exit_close": 64.4800033569336
+  },
+  {
+   "sym": "ABNB",
+   "entry": "2025-02-12",
+   "exit": "2025-02-14",
+   "side": "put",
+   "short": 123.0,
+   "long": 119.0,
+   "exit_close": 161.4199981689453
+  },
+  {
+   "sym": "INTU",
+   "entry": "2025-02-24",
+   "exit": "2025-02-26",
+   "side": "call",
+   "short": 615.0,
+   "long": 625.0,
+   "exit_close": 625.510009765625
+  },
+  {
+   "sym": "ULTA",
+   "entry": "2025-03-12",
+   "exit": "2025-03-14",
+   "side": "put",
+   "short": 290.0,
+   "long": 280.0,
+   "exit_close": 357.4800109863281
+  },
+  {
+   "sym": "FDX",
+   "entry": "2025-03-19",
+   "exit": "2025-03-21",
+   "side": "put",
+   "short": 215.0,
+   "long": 210.0,
+   "exit_close": 231.1036172911517
+  },
+  {
+   "sym": "GOOG",
+   "entry": "2025-07-22",
+   "exit": "2025-07-24",
+   "side": "call",
+   "short": 210.0,
+   "long": 215.0,
+   "exit_close": 193.1999969482422
+  },
+  {
+   "sym": "CRWD",
+   "entry": "2025-08-25",
+   "exit": "2025-08-28",
+   "side": "call",
+   "short": 470.0,
+   "long": 480.0,
+   "exit_close": 442.9577178041654
+  },
+  {
+   "sym": "LULU",
+   "entry": "2025-09-03",
+   "exit": "2025-09-05",
+   "side": "call",
+   "short": 230.0,
+   "long": 235.0,
+   "exit_close": 167.8000030517578
+  },
+  {
+   "sym": "GOOG",
+   "entry": "2025-10-28",
+   "exit": "2025-10-30",
+   "side": "put",
+   "short": 242.5,
+   "long": 235.0,
+   "exit_close": 281.8999938964844
+  },
+  {
+   "sym": "GOOGL",
+   "entry": "2025-10-28",
+   "exit": "2025-10-30",
+   "side": "call",
+   "short": 295.0,
+   "long": 300.0,
+   "exit_close": 281.4800109863281
+  },
+  {
+   "sym": "GOOG",
+   "entry": "2026-02-03",
+   "exit": "2026-02-05",
+   "side": "call",
+   "short": 375.0,
+   "long": 385.0,
+   "exit_close": 331.3299865722656
+  },
+  {
+   "sym": "AMZN",
+   "entry": "2026-04-28",
+   "exit": "2026-04-30",
+   "side": "call",
+   "short": 285.0,
+   "long": 290.0,
+   "exit_close": 265.05999755859375
+  },
+  {
+   "sym": "UBER",
+   "entry": "2026-05-05",
+   "exit": "2026-05-06",
+   "side": "put",
+   "short": 66.0,
+   "long": 64.0,
+   "exit_close": 79.16999816894531
+  },
+  {
+   "sym": "WMT",
+   "entry": "2026-05-20",
+   "exit": "2026-05-21",
+   "side": "call",
+   "short": 141.0,
+   "long": 146.0,
+   "exit_close": 121.33999633789062
+  },
+  {
+   "sym": "MSFT",
+   "entry": "2026-07-28",
+   "exit": "2026-07-30",
+   "side": "put",
+   "short": 360.0,
+   "long": 355.0,
+   "exit_close": 451.1000061035156
+  }
+ ],
+ "skip_reasons": [
+  [
+   "Earnings move under 3 normal days",
+   2094
+  ],
+  [
+   "Gapper (worst move too big)",
+   620
+  ],
+  [
+   "Implied move below last year's same-quarter move",
+   295
+  ],
+  [
+   "Stock under $20",
+   271
+  ],
+  [
+   "Not enough earnings history",
+   119
+  ],
+  [
+   "Implied move below the average past move",
+   118
+  ],
+  [
+   "No strike far enough / credit too small",
+   98
+  ],
+  [
+   "Stock volume too low",
+   39
+  ]
+ ],
+ "commission": 0.5,
+ "slippage_levels": [
+  0.0,
+  0.25,
+  0.5,
+  1.0
+ ],
+ "stats": {
+  "n": 19,
+  "wins": 14,
+  "win_rate": 0.7368,
+  "total": 72.0,
+  "avg": 3.79,
+  "max_dd": -816.0,
+  "best": 164.0,
+  "worst": -744.0
+ },
+ "stats_slippage": {
+  "0.0": {
+   "n": 19,
+   "wins": 14,
+   "win_rate": 0.7368,
+   "total": 72.0,
+   "avg": 3.79,
+   "max_dd": -816.0,
+   "best": 164.0,
+   "worst": -744.0
+  },
+  "0.25": {
+   "n": 19,
+   "wins": 12,
+   "win_rate": 0.6316,
+   "total": -272.0,
+   "avg": -14.32,
+   "max_dd": -908.5,
+   "best": 135.75,
+   "worst": -787.75
+  },
+  "0.5": {
+   "n": 19,
+   "wins": 12,
+   "win_rate": 0.6316,
+   "total": -624.0,
+   "avg": -32.84,
+   "max_dd": -1001.0,
+   "best": 130.5,
+   "worst": -831.5
+  },
+  "1.0": {
+   "n": 19,
+   "wins": 8,
+   "win_rate": 0.4211,
+   "total": -1328.0,
+   "avg": -69.89,
+   "max_dd": -1328.0,
+   "best": 120.0,
+   "worst": -919.0
+  }
+ },
+ "stats_all_rules": {
+  "n": 0
+ },
+ "all_rules_trades": 0,
+ "months": [
+  {
+   "month": "2023-02",
+   "n": 1,
+   "wins": 0,
+   "pnl": -40.0
+  },
+  {
+   "month": "2023-04",
+   "n": 1,
+   "wins": 1,
+   "pnl": 102.5
+  },
+  {
+   "month": "2023-07",
+   "n": 1,
+   "wins": 1,
+   "pnl": 91.5
+  },
+  {
+   "month": "2023-10",
+   "n": 1,
+   "wins": 1,
+   "pnl": 6.0
+  },
+  {
+   "month": "2024-08",
+   "n": 1,
+   "wins": 1,
+   "pnl": 164.0
+  },
+  {
+   "month": "2024-10",
+   "n": 2,
+   "wins": 1,
+   "pnl": 12.0
+  },
+  {
+   "month": "2024-11",
+   "n": 3,
+   "wins": 3,
+   "pnl": 203.0
+  },
+  {
+   "month": "2025-02",
+   "n": 2,
+   "wins": 2,
+   "pnl": 234.0
+  },
+  {
+   "month": "2025-06",
+   "n": 1,
+   "wins": 0,
+   "pnl": -744.0
+  },
+  {
+   "month": "2025-08",
+   "n": 2,
+   "wins": 2,
+   "pnl": 219.5
+  },
+  {
+   "month": "2025-10",
+   "n": 2,
+   "wins": 1,
+   "pnl": -62.0
+  },
+  {
+   "month": "2026-04",
+   "n": 1,
+   "wins": 0,
+   "pnl": -229.5
+  },
+  {
+   "month": "2026-10",
+   "n": 1,
+   "wins": 1,
+   "pnl": 115.0
+  }
+ ],
+ "years": [
+  {
+   "year": "2023",
+   "n": 4,
+   "wins": 3,
+   "pnl": 160.0
+  },
+  {
+   "year": "2024",
+   "n": 6,
+   "wins": 5,
+   "pnl": 379.0
+  },
+  {
+   "year": "2025",
+   "n": 7,
+   "wins": 5,
+   "pnl": -352.5
+  },
+  {
+   "year": "2026",
+   "n": 2,
+   "wins": 1,
+   "pnl": -114.5
+  }
+ ],
+ "trades": [
+  {
+   "report": "2023-02-02",
+   "timing": "AMC",
+   "entry": "2023-02-01",
+   "exit": "2023-02-06",
+   "sym": "SBUX",
+   "entry_shift": 0,
+   "exit_shift": 1,
+   "side": "put",
+   "short": 101.0,
+   "long": 99.0,
+   "expiry": "2023-02-17",
+   "dte": 16,
+   "contracts": 5,
+   "spot": 109.99,
+   "credit": 0.24,
+   "exit_value": 0.3,
+   "width": 2.0,
+   "fee": 10.0,
+   "pnl": -40.0,
+   "pnl_slip": {
+    "0.0": -40.0,
+    "0.25": -48.75,
+    "0.5": -57.5,
+    "1.0": -75.0
+   },
+   "implied": 0.0543,
+   "hist": 0.0532,
+   "move": -0.0452,
+   "exit_stock": 105.02,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2023-04-27",
+   "timing": "BMO",
+   "entry": "2023-04-26",
+   "exit": "2023-04-28",
+   "sym": "BMY",
+   "entry_shift": 0,
+   "exit_shift": 1,
+   "side": "call",
+   "short": 71.0,
+   "long": 73.0,
+   "expiry": "2023-05-12",
+   "dte": 16,
+   "contracts": 5,
+   "spot": 68.02,
+   "credit": 0.23,
+   "exit_value": 0.0,
+   "width": 2.0,
+   "fee": 10.0,
+   "pnl": 102.5,
+   "pnl_slip": {
+    "0.0": 102.5,
+    "0.25": 90.63,
+    "0.5": 78.75,
+    "1.0": 55.0
+   },
+   "implied": 0.0342,
+   "hist": 0.0245,
+   "move": -0.0184,
+   "exit_stock": 66.77,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2023-07-20",
+   "timing": "AMC",
+   "entry": "2023-07-19",
+   "exit": "2023-07-21",
+   "sym": "COF",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 127.0,
+   "long": 130.0,
+   "expiry": "2023-08-04",
+   "dte": 16,
+   "contracts": 3,
+   "spot": 117.96,
+   "credit": 0.38,
+   "exit_value": 0.05,
+   "width": 3.0,
+   "fee": 6.0,
+   "pnl": 91.5,
+   "pnl_slip": {
+    "0.0": 91.5,
+    "0.25": 67.12,
+    "0.5": 42.75,
+    "1.0": -6.0
+   },
+   "implied": 0.0507,
+   "hist": 0.0487,
+   "move": -0.0203,
+   "exit_stock": 115.57,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2023-10-13",
+   "timing": "BMO",
+   "entry": "2023-10-11",
+   "exit": "2023-10-13",
+   "sym": "JPM",
+   "entry_shift": 1,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 155.0,
+   "long": 157.5,
+   "expiry": "2023-10-27",
+   "dte": 16,
+   "contracts": 4,
+   "spot": 146.15,
+   "credit": 0.26,
+   "exit_value": 0.23,
+   "width": 2.5,
+   "fee": 8.0,
+   "pnl": 6.0,
+   "pnl_slip": {
+    "0.0": 6.0,
+    "0.25": -2.5,
+    "0.5": -11.0,
+    "1.0": -28.0
+   },
+   "implied": 0.0391,
+   "hist": 0.0348,
+   "move": 0.0127,
+   "exit_stock": 148.0,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2024-08-29",
+   "timing": "AMC",
+   "entry": "2024-08-28",
+   "exit": "2024-08-30",
+   "sym": "LULU",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 300.0,
+   "long": 305.0,
+   "expiry": "2024-09-13",
+   "dte": 16,
+   "contracts": 2,
+   "spot": 258.83,
+   "credit": 0.89,
+   "exit_value": 0.05,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": 164.0,
+   "pnl_slip": {
+    "0.0": 164.0,
+    "0.25": 114.5,
+    "0.5": 65.0,
+    "1.0": -34.0
+   },
+   "implied": 0.0988,
+   "hist": 0.0944,
+   "move": 0.0025,
+   "exit_stock": 259.47,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2024-10-24",
+   "timing": "BMO",
+   "entry": "2024-10-23",
+   "exit": "2024-10-25",
+   "sym": "UPS",
+   "entry_shift": 0,
+   "exit_shift": 1,
+   "side": "put",
+   "short": 120.0,
+   "long": 115.0,
+   "expiry": "2024-11-08",
+   "dte": 16,
+   "contracts": 2,
+   "spot": 131.41,
+   "credit": 0.63,
+   "exit_value": 0.0,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": 122.0,
+   "pnl_slip": {
+    "0.0": 122.0,
+    "0.25": 113.0,
+    "0.5": 96.0,
+    "1.0": 62.0
+   },
+   "implied": 0.0717,
+   "hist": 0.0556,
+   "move": 0.0458,
+   "exit_stock": 137.43,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2024-10-30",
+   "timing": "AMC",
+   "entry": "2024-10-29",
+   "exit": "2024-10-31",
+   "sym": "ETSY",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 55.0,
+   "long": 56.0,
+   "expiry": "2024-11-15",
+   "dte": 17,
+   "contracts": 11,
+   "spot": 47.48,
+   "credit": 0.16,
+   "exit_value": 0.24,
+   "width": 1.0,
+   "fee": 22.0,
+   "pnl": -110.0,
+   "pnl_slip": {
+    "0.0": -110.0,
+    "0.25": -148.5,
+    "0.5": -187.0,
+    "1.0": -264.0
+   },
+   "implied": 0.1267,
+   "hist": 0.087,
+   "move": 0.0834,
+   "exit_stock": 51.44,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2024-10-31",
+   "timing": "AMC",
+   "entry": "2024-10-30",
+   "exit": "2024-11-01",
+   "sym": "AMZN",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "put",
+   "short": 172.5,
+   "long": 167.5,
+   "expiry": "2024-11-15",
+   "dte": 16,
+   "contracts": 2,
+   "spot": 192.73,
+   "credit": 0.57,
+   "exit_value": 0.08,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": 94.0,
+   "pnl_slip": {
+    "0.0": 94.0,
+    "0.25": 91.5,
+    "0.5": 89.0,
+    "1.0": 84.0
+   },
+   "implied": 0.0749,
+   "hist": 0.0685,
+   "move": 0.027,
+   "exit_stock": 197.93,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2024-10-31",
+   "timing": "AMC",
+   "entry": "2024-10-30",
+   "exit": "2024-11-04",
+   "sym": "INTC",
+   "entry_shift": 0,
+   "exit_shift": 1,
+   "side": "put",
+   "short": 18.5,
+   "long": 18.0,
+   "expiry": "2024-11-15",
+   "dte": 16,
+   "contracts": 24,
+   "spot": 22.3,
+   "credit": 0.08,
+   "exit_value": 0.02,
+   "width": 0.5,
+   "fee": 48.0,
+   "pnl": 108.0,
+   "pnl_slip": {
+    "0.0": 108.0,
+    "0.25": 81.0,
+    "0.5": 54.0,
+    "1.0": -0.0
+   },
+   "implied": 0.1379,
+   "hist": 0.0833,
+   "move": 0.0099,
+   "exit_stock": 22.52,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2024-11-04",
+   "timing": "BMO",
+   "entry": "2024-11-01",
+   "exit": "2024-11-04",
+   "sym": "MAR",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "put",
+   "short": 245.0,
+   "long": 240.0,
+   "expiry": "2024-11-15",
+   "dte": 14,
+   "contracts": 2,
+   "spot": 260.57,
+   "credit": 0.6,
+   "exit_value": 0.57,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": 1.0,
+   "pnl_slip": {
+    "0.0": 1.0,
+    "0.25": -17.75,
+    "0.5": -36.5,
+    "1.0": -74.0
+   },
+   "implied": 0.0432,
+   "hist": 0.0345,
+   "move": -0.0159,
+   "exit_stock": 256.43,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2025-02-05",
+   "timing": "AMC",
+   "entry": "2025-02-04",
+   "exit": "2025-02-06",
+   "sym": "QCOM",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 190.0,
+   "long": 195.0,
+   "expiry": "2025-02-21",
+   "dte": 17,
+   "contracts": 2,
+   "spot": 173.04,
+   "credit": 0.72,
+   "exit_value": 0.06,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": 129.0,
+   "pnl_slip": {
+    "0.0": 129.0,
+    "0.25": 118.75,
+    "0.5": 108.5,
+    "1.0": 88.0
+   },
+   "implied": 0.071,
+   "hist": 0.0554,
+   "move": -0.0215,
+   "exit_stock": 169.32,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2025-02-20",
+   "timing": "BMO",
+   "entry": "2025-02-19",
+   "exit": "2025-02-20",
+   "sym": "WMT",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 112.0,
+   "long": 114.0,
+   "expiry": "2025-03-07",
+   "dte": 16,
+   "contracts": 5,
+   "spot": 104.0,
+   "credit": 0.25,
+   "exit_value": 0.02,
+   "width": 2.0,
+   "fee": 10.0,
+   "pnl": 105.0,
+   "pnl_slip": {
+    "0.0": 105.0,
+    "0.25": 91.25,
+    "0.5": 77.5,
+    "1.0": 50.0
+   },
+   "implied": 0.0554,
+   "hist": 0.04,
+   "move": -0.0653,
+   "exit_stock": 97.21,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2025-06-05",
+   "timing": "AMC",
+   "entry": "2025-06-04",
+   "exit": "2025-06-06",
+   "sym": "LULU",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "put",
+   "short": 285.0,
+   "long": 275.0,
+   "expiry": "2025-06-20",
+   "dte": 16,
+   "contracts": 1,
+   "spot": 335.19,
+   "credit": 1.03,
+   "exit_value": 8.45,
+   "width": 10.0,
+   "fee": 2.0,
+   "pnl": -744.0,
+   "pnl_slip": {
+    "0.0": -744.0,
+    "0.25": -787.75,
+    "0.5": -831.5,
+    "1.0": -919.0
+   },
+   "implied": 0.0919,
+   "hist": 0.0919,
+   "move": -0.2086,
+   "exit_stock": 265.27,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2025-07-31",
+   "timing": "AMC",
+   "entry": "2025-07-30",
+   "exit": "2025-08-01",
+   "sym": "AMZN",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 247.5,
+   "long": 252.5,
+   "expiry": "2025-08-15",
+   "dte": 16,
+   "contracts": 2,
+   "spot": 230.19,
+   "credit": 0.78,
+   "exit_value": 0.05,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": 141.0,
+   "pnl_slip": {
+    "0.0": 141.0,
+    "0.25": 135.75,
+    "0.5": 130.5,
+    "1.0": 120.0
+   },
+   "implied": 0.0591,
+   "hist": 0.0495,
+   "move": -0.0671,
+   "exit_stock": 214.75,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2025-07-30",
+   "timing": "AMC",
+   "entry": "2025-07-29",
+   "exit": "2025-08-01",
+   "sym": "MSFT",
+   "entry_shift": 0,
+   "exit_shift": 1,
+   "side": "put",
+   "short": 480.0,
+   "long": 470.0,
+   "expiry": "2025-08-15",
+   "dte": 17,
+   "contracts": 1,
+   "spot": 512.57,
+   "credit": 1.14,
+   "exit_value": 0.33,
+   "width": 10.0,
+   "fee": 2.0,
+   "pnl": 78.5,
+   "pnl_slip": {
+    "0.0": 78.5,
+    "0.25": 72.13,
+    "0.5": 65.75,
+    "1.0": 53.0
+   },
+   "implied": 0.0465,
+   "hist": 0.0404,
+   "move": 0.0225,
+   "exit_stock": 524.11,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2025-10-09",
+   "timing": "BMO",
+   "entry": "2025-10-08",
+   "exit": "2025-10-09",
+   "sym": "PEP",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "put",
+   "short": 130.0,
+   "long": 125.0,
+   "expiry": "2025-10-24",
+   "dte": 16,
+   "contracts": 2,
+   "spot": 138.84,
+   "credit": 0.51,
+   "exit_value": 0.03,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": 91.0,
+   "pnl_slip": {
+    "0.0": 91.0,
+    "0.25": 77.25,
+    "0.5": 63.5,
+    "1.0": 36.0
+   },
+   "implied": 0.0418,
+   "hist": 0.0343,
+   "move": 0.0423,
+   "exit_stock": 144.71,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2025-10-30",
+   "timing": "AMC",
+   "entry": "2025-10-29",
+   "exit": "2025-10-31",
+   "sym": "AMZN",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 255.0,
+   "long": 260.0,
+   "expiry": "2025-11-14",
+   "dte": 16,
+   "contracts": 2,
+   "spot": 230.3,
+   "credit": 0.64,
+   "exit_value": 1.38,
+   "width": 5.0,
+   "fee": 4.0,
+   "pnl": -153.0,
+   "pnl_slip": {
+    "0.0": -153.0,
+    "0.25": -170.75,
+    "0.5": -188.5,
+    "1.0": -224.0
+   },
+   "implied": 0.0728,
+   "hist": 0.0548,
+   "move": 0.0604,
+   "exit_stock": 244.22,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2026-04-16",
+   "timing": "AMC",
+   "entry": "2026-04-15",
+   "exit": "2026-04-17",
+   "sym": "NFLX",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "put",
+   "short": 97.0,
+   "long": 94.0,
+   "expiry": "2026-05-01",
+   "dte": 16,
+   "contracts": 3,
+   "spot": 107.71,
+   "credit": 0.38,
+   "exit_value": 1.12,
+   "width": 3.0,
+   "fee": 6.0,
+   "pnl": -229.5,
+   "pnl_slip": {
+    "0.0": -229.5,
+    "0.25": -235.13,
+    "0.5": -240.75,
+    "1.0": -252.0
+   },
+   "implied": 0.0716,
+   "hist": 0.0628,
+   "move": -0.0966,
+   "exit_stock": 97.31,
+   "strike_source": "distance"
+  },
+  {
+   "report": "2026-10-01",
+   "timing": "AMC",
+   "entry": "2026-09-30",
+   "exit": "2026-10-02",
+   "sym": "NKE",
+   "entry_shift": 0,
+   "exit_shift": 0,
+   "side": "call",
+   "short": 40.0,
+   "long": 40.5,
+   "expiry": "2026-10-16",
+   "dte": 16,
+   "contracts": 23,
+   "spot": 35.4,
+   "credit": 0.08,
+   "exit_value": 0.01,
+   "width": 0.5,
+   "fee": 46.0,
+   "pnl": 115.0,
+   "pnl_slip": {
+    "0.0": 115.0,
+    "0.25": 86.25,
+    "0.5": 57.5,
+    "1.0": 0.0
+   },
+   "implied": 0.0879,
+   "hist": 0.0812,
+   "move": -0.0432,
+   "exit_stock": 33.87,
+   "strike_source": "distance"
+  }
+ ],
+ "deviations": [
+  "Expiry: the data has no weekly options, so each trade uses the first expiry in the data on/after the reaction day (usually 2-3 weeks out) instead of the first weekly. Less of that option's value is earnings premium, so the IV crush per trade is smaller than in the live scanner.",
+  "Options volume / open interest rule (300 contracts or 5,000 OI) can't be checked: the data has no volume or OI. Instead the universe is 193 large, liquid optionable stocks where that rule almost always passes.",
+  "Prices are end-of-day quotes: entry at the mid of the closing quote on the scan day (the scanner enters before the close, at mid); exit at the mid of the closing quote on the reaction day (the scanner exits at 9:35 AM). The close exit includes the whole first day's move, not just the opening gap.",
+  "Term-structure rule (front IV / next-month IV >= 1.3) is compared on 2-3-week vs ~5-week options, which dilutes it; headline results skip it, and the page shows the result with it applied too.",
+  "The database stops listing an expiry once it is under ~2 weeks out, so many trades have no exit quote on the reaction day (or the day after). Those trades are left out of the P&L; the page shows how many and how often the stock had crossed the short strike in them.",
+  "The database skips some days for some stocks (mostly Tuesdays and Thursdays). When the scan day has no quotes, the quotes from 1 trading day earlier are used for the entry; when the exit day has none, the next trading day's close is used. Each such trade is marked in the trade list.",
+  "Stock prices: Yahoo's history is adjusted for later splits and spin-offs, so when it doesn't match the option strikes, the stock price is read from the option quotes themselves (put-call parity).",
+  "Strikes come from ~25 listed strikes per expiry, so the strike and wing chosen can differ from the full chain the live scanner sees."
+ ],
+ "source": {
+  "options": "DoltHub post-no-preference/options (free public database, end-of-day quotes)",
+  "earnings": "Yahoo earnings dates + DoltHub post-no-preference/earnings calendar",
+  "prices": "Yahoo daily bars",
+  "rules": "scanner rules_v3 (earnings-iv-crush cb866eb)"
+ }
+}
