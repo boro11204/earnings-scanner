@@ -70,7 +70,7 @@ a{color:var(--accent)}
 #backtest .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(min-width:640px){#backtest .kpis{grid-template-columns:repeat(4,minmax(0,1fr))}}
 #backtest .kpi .v{font-size:20px}
-.chart.wide{max-width:100%}
+.chart.wide{max-width:640px}
 .tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:6px 0 0;max-width:100%}
 table.bt{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
 table.bt th{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink2);text-align:left;font-weight:600;padding:6px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
